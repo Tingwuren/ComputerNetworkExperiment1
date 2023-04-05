@@ -61,7 +61,7 @@ int main(int argc, char **argv)//两个参数提供从命令行参数中获取�
     protocol_init(argc, argv);//对运行环境初始化
     lprintf("Designed by Jiang Yanjun, build: " __DATE__"  "__TIME__"\n");//printf的改进函数，在输出前加时间坐标
 
-    enable_network_layer();//缓冲区满时通过该函数通知网络层
+    disable_network_layer();//缓冲区满时通过该函数通知网络层
 
     for (;;) {
         event = wait_for_event(&arg);//返回事件之一，arg用于获取发生事件的相关信息

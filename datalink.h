@@ -1,8 +1,8 @@
 
 /* FRAME kind */
-#define FRAME_DATA 1
-#define FRAME_ACK  2
-#define FRAME_NAK  3
+#define FRAME_DATA 1//帧种类为数据帧
+#define FRAME_ACK  2//帧种类为ACK帧
+#define FRAME_NAK  3//帧种类为NAK帧
 
 /*  
     DATA Frame
