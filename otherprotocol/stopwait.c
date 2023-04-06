@@ -1,3 +1,6 @@
+/*
+ *stop wait协议
+*/
 #include <stdio.h>
 #include <string.h>
 
