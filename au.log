@@ -3,873 +3,937 @@
 000.000 -------------------------------------------------------------
 000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
 000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 0
-000.000 Log file "a.log", TCP port 59144, debug mask 0x00
-000.000 Station A is waiting for station B on TCP port 59144 ... Done.
-000.353 New epoch: Thu Apr 13 20:55:25 2023
-000.353 =================================================================
-000.353 
-000.353 Designed by Li Ruobin, build: Apr 13 2023  17:16:51
-003.430 .... 8 packets received, 7681 bps, 96.02%, Err 0 (0.0e+00)
-005.549 .... 16 packets received, 7706 bps, 96.33%, Err 0 (0.0e+00)
-007.673 .... 24 packets received, 7709 bps, 96.36%, Err 0 (0.0e+00)
-009.755 .... 32 packets received, 7748 bps, 96.86%, Err 0 (0.0e+00)
-011.878 .... 40 packets received, 7742 bps, 96.78%, Err 0 (0.0e+00)
-013.997 .... 48 packets received, 7740 bps, 96.76%, Err 0 (0.0e+00)
-016.101 .... 56 packets received, 7747 bps, 96.84%, Err 0 (0.0e+00)
-018.209 .... 64 packets received, 7750 bps, 96.88%, Err 0 (0.0e+00)
-020.330 .... 72 packets received, 7747 bps, 96.84%, Err 0 (0.0e+00)
-022.454 .... 80 packets received, 7744 bps, 96.80%, Err 0 (0.0e+00)
-024.545 .... 88 packets received, 7752 bps, 96.90%, Err 0 (0.0e+00)
-026.663 .... 96 packets received, 7751 bps, 96.89%, Err 0 (0.0e+00)
-028.775 .... 104 packets received, 7751 bps, 96.89%, Err 0 (0.0e+00)
-030.891 .... 112 packets received, 7751 bps, 96.88%, Err 0 (0.0e+00)
-033.000 .... 120 packets received, 7752 bps, 96.90%, Err 0 (0.0e+00)
-035.110 .... 128 packets received, 7753 bps, 96.91%, Err 0 (0.0e+00)
-037.221 .... 136 packets received, 7753 bps, 96.92%, Err 0 (0.0e+00)
-039.337 .... 144 packets received, 7753 bps, 96.91%, Err 0 (0.0e+00)
-041.436 .... 152 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-043.554 .... 160 packets received, 7754 bps, 96.93%, Err 0 (0.0e+00)
-045.663 .... 168 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-047.764 .... 176 packets received, 7757 bps, 96.96%, Err 0 (0.0e+00)
-049.916 .... 184 packets received, 7751 bps, 96.88%, Err 0 (0.0e+00)
-052.014 .... 192 packets received, 7753 bps, 96.91%, Err 0 (0.0e+00)
-054.123 .... 200 packets received, 7754 bps, 96.92%, Err 0 (0.0e+00)
-056.231 .... 208 packets received, 7754 bps, 96.93%, Err 0 (0.0e+00)
-058.334 .... 216 packets received, 7756 bps, 96.95%, Err 0 (0.0e+00)
-060.460 .... 224 packets received, 7754 bps, 96.93%, Err 0 (0.0e+00)
-062.571 .... 232 packets received, 7754 bps, 96.93%, Err 0 (0.0e+00)
-064.662 .... 240 packets received, 7757 bps, 96.96%, Err 0 (0.0e+00)
-066.790 .... 248 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-068.910 .... 256 packets received, 7754 bps, 96.93%, Err 0 (0.0e+00)
-071.012 .... 264 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-073.130 .... 272 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-075.243 .... 280 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-077.345 .... 288 packets received, 7756 bps, 96.95%, Err 0 (0.0e+00)
-079.465 .... 296 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-081.566 .... 304 packets received, 7756 bps, 96.95%, Err 0 (0.0e+00)
-083.680 .... 312 packets received, 7756 bps, 96.95%, Err 0 (0.0e+00)
-085.778 .... 320 packets received, 7757 bps, 96.97%, Err 0 (0.0e+00)
-087.890 .... 328 packets received, 7757 bps, 96.97%, Err 0 (0.0e+00)
-090.010 .... 336 packets received, 7757 bps, 96.96%, Err 0 (0.0e+00)
-092.138 .... 344 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-094.234 .... 352 packets received, 7757 bps, 96.96%, Err 0 (0.0e+00)
-096.360 .... 360 packets received, 7756 bps, 96.95%, Err 0 (0.0e+00)
-098.480 .... 368 packets received, 7755 bps, 96.94%, Err 0 (0.0e+00)
-104.397 .... 376 packets received, 7469 bps, 93.36%, Err 0 (0.0e+00)
-108.541 .... 377 packets received, 7199 bps, 89.99%, Err 0 (0.0e+00)
-112.642 .... 378 packets received, 6953 bps, 86.91%, Err 0 (0.0e+00)
-116.674 .... 379 packets received, 6727 bps, 84.09%, Err 0 (0.0e+00)
-120.771 .... 380 packets received, 6514 bps, 81.42%, Err 0 (0.0e+00)
-124.899 .... 381 packets received, 6313 bps, 78.91%, Err 0 (0.0e+00)
-128.970 .... 382 packets received, 6128 bps, 76.60%, Err 0 (0.0e+00)
-133.011 .... 383 packets received, 5955 bps, 74.44%, Err 0 (0.0e+00)
-137.156 .... 384 packets received, 5789 bps, 72.36%, Err 0 (0.0e+00)
-141.189 .... 385 packets received, 5636 bps, 70.45%, Err 0 (0.0e+00)
-145.356 .... 386 packets received, 5488 bps, 68.59%, Err 0 (0.0e+00)
-149.413 .... 387 packets received, 5351 bps, 66.89%, Err 0 (0.0e+00)
-153.552 .... 388 packets received, 5219 bps, 65.24%, Err 0 (0.0e+00)
-157.737 .... 389 packets received, 5093 bps, 63.66%, Err 0 (0.0e+00)
-161.786 .... 390 packets received, 4977 bps, 62.21%, Err 0 (0.0e+00)
-165.906 .... 391 packets received, 4865 bps, 60.81%, Err 0 (0.0e+00)
-170.020 .... 392 packets received, 4758 bps, 59.48%, Err 0 (0.0e+00)
-174.060 .... 393 packets received, 4659 bps, 58.23%, Err 0 (0.0e+00)
-178.191 .... 394 packets received, 4562 bps, 57.02%, Err 0 (0.0e+00)
-182.173 .... 395 packets received, 4472 bps, 55.91%, Err 0 (0.0e+00)
-186.426 .... 396 packets received, 4381 bps, 54.76%, Err 0 (0.0e+00)
-190.649 .... 397 packets received, 4294 bps, 53.67%, Err 0 (0.0e+00)
-194.778 .... 398 packets received, 4213 bps, 52.66%, Err 0 (0.0e+00)
-198.825 .... 399 packets received, 4137 bps, 51.71%, Err 0 (0.0e+00)
-201.070 .... 402 packets received, 4121 bps, 51.51%, Err 0 (0.0e+00)
-203.178 .... 410 packets received, 4159 bps, 51.99%, Err 0 (0.0e+00)
-205.297 .... 418 packets received, 4196 bps, 52.45%, Err 0 (0.0e+00)
-207.387 .... 426 packets received, 4233 bps, 52.92%, Err 0 (0.0e+00)
-209.525 .... 434 packets received, 4269 bps, 53.36%, Err 0 (0.0e+00)
-211.622 .... 442 packets received, 4304 bps, 53.80%, Err 0 (0.0e+00)
-213.746 .... 450 packets received, 4338 bps, 54.22%, Err 0 (0.0e+00)
-215.857 .... 458 packets received, 4372 bps, 54.65%, Err 0 (0.0e+00)
-217.955 .... 466 packets received, 4405 bps, 55.06%, Err 0 (0.0e+00)
-220.068 .... 474 packets received, 4437 bps, 55.47%, Err 0 (0.0e+00)
-222.178 .... 482 packets received, 4469 bps, 55.86%, Err 0 (0.0e+00)
-224.319 .... 490 packets received, 4500 bps, 56.25%, Err 0 (0.0e+00)
-226.423 .... 498 packets received, 4530 bps, 56.63%, Err 0 (0.0e+00)
-228.518 .... 506 packets received, 4561 bps, 57.01%, Err 0 (0.0e+00)
-230.628 .... 514 packets received, 4590 bps, 57.38%, Err 0 (0.0e+00)
-232.749 .... 522 packets received, 4619 bps, 57.74%, Err 0 (0.0e+00)
-234.859 .... 530 packets received, 4647 bps, 58.09%, Err 0 (0.0e+00)
-236.970 .... 538 packets received, 4675 bps, 58.44%, Err 0 (0.0e+00)
-239.091 .... 546 packets received, 4702 bps, 58.78%, Err 0 (0.0e+00)
-241.200 .... 554 packets received, 4729 bps, 59.12%, Err 0 (0.0e+00)
-243.305 .... 562 packets received, 4756 bps, 59.45%, Err 0 (0.0e+00)
-245.416 .... 570 packets received, 4782 bps, 59.77%, Err 0 (0.0e+00)
-247.524 .... 578 packets received, 4808 bps, 60.09%, Err 0 (0.0e+00)
-249.650 .... 586 packets received, 4832 bps, 60.40%, Err 0 (0.0e+00)
-251.756 .... 594 packets received, 4857 bps, 60.71%, Err 0 (0.0e+00)
-253.867 .... 602 packets received, 4881 bps, 61.02%, Err 0 (0.0e+00)
-255.992 .... 610 packets received, 4905 bps, 61.31%, Err 0 (0.0e+00)
-258.085 .... 618 packets received, 4929 bps, 61.61%, Err 0 (0.0e+00)
-260.199 .... 626 packets received, 4952 bps, 61.90%, Err 0 (0.0e+00)
-262.315 .... 634 packets received, 4974 bps, 62.18%, Err 0 (0.0e+00)
-264.429 .... 642 packets received, 4997 bps, 62.46%, Err 0 (0.0e+00)
-266.527 .... 650 packets received, 5019 bps, 62.74%, Err 0 (0.0e+00)
-268.636 .... 658 packets received, 5041 bps, 63.01%, Err 0 (0.0e+00)
-270.763 .... 666 packets received, 5062 bps, 63.27%, Err 0 (0.0e+00)
-272.872 .... 674 packets received, 5083 bps, 63.53%, Err 0 (0.0e+00)
-274.981 .... 682 packets received, 5103 bps, 63.79%, Err 0 (0.0e+00)
-277.104 .... 690 packets received, 5124 bps, 64.04%, Err 0 (0.0e+00)
-279.196 .... 698 packets received, 5144 bps, 64.30%, Err 0 (0.0e+00)
-281.339 .... 706 packets received, 5163 bps, 64.54%, Err 0 (0.0e+00)
-283.437 .... 714 packets received, 5183 bps, 64.78%, Err 0 (0.0e+00)
-285.549 .... 722 packets received, 5202 bps, 65.02%, Err 0 (0.0e+00)
-287.658 .... 730 packets received, 5221 bps, 65.26%, Err 0 (0.0e+00)
-289.783 .... 738 packets received, 5239 bps, 65.49%, Err 0 (0.0e+00)
-291.879 .... 746 packets received, 5258 bps, 65.72%, Err 0 (0.0e+00)
-293.992 .... 754 packets received, 5276 bps, 65.95%, Err 0 (0.0e+00)
-296.098 .... 762 packets received, 5294 bps, 66.17%, Err 0 (0.0e+00)
-298.240 .... 770 packets received, 5311 bps, 66.38%, Err 0 (0.0e+00)
-300.331 .... 778 packets received, 5328 bps, 66.60%, Err 0 (0.0e+00)
-304.341 .... 779 packets received, 5265 bps, 65.81%, Err 0 (0.0e+00)
-308.510 .... 780 packets received, 5200 bps, 65.00%, Err 0 (0.0e+00)
-312.545 .... 781 packets received, 5139 bps, 64.24%, Err 0 (0.0e+00)
-316.616 .... 782 packets received, 5079 bps, 63.49%, Err 0 (0.0e+00)
-320.786 .... 783 packets received, 5019 bps, 62.74%, Err 0 (0.0e+00)
-324.911 .... 784 packets received, 4962 bps, 62.02%, Err 0 (0.0e+00)
-329.005 .... 785 packets received, 4906 bps, 61.32%, Err 0 (0.0e+00)
-333.030 .... 786 packets received, 4852 bps, 60.66%, Err 0 (0.0e+00)
-337.065 .... 787 packets received, 4800 bps, 60.00%, Err 0 (0.0e+00)
-341.247 .... 788 packets received, 4747 bps, 59.34%, Err 0 (0.0e+00)
-345.363 .... 789 packets received, 4696 bps, 58.71%, Err 0 (0.0e+00)
-349.481 .... 790 packets received, 4647 bps, 58.08%, Err 0 (0.0e+00)
-353.496 .... 791 packets received, 4600 bps, 57.49%, Err 0 (0.0e+00)
-357.617 .... 792 packets received, 4552 bps, 56.90%, Err 0 (0.0e+00)
-361.631 .... 793 packets received, 4507 bps, 56.34%, Err 0 (0.0e+00)
-365.674 .... 794 packets received, 4463 bps, 55.78%, Err 0 (0.0e+00)
-369.730 .... 795 packets received, 4419 bps, 55.24%, Err 0 (0.0e+00)
-373.766 .... 796 packets received, 4377 bps, 54.71%, Err 0 (0.0e+00)
-377.833 .... 797 packets received, 4335 bps, 54.19%, Err 0 (0.0e+00)
-381.871 .... 798 packets received, 4294 bps, 53.68%, Err 0 (0.0e+00)
-385.889 .... 799 packets received, 4255 bps, 53.18%, Err 0 (0.0e+00)
-389.948 .... 800 packets received, 4216 bps, 52.70%, Err 0 (0.0e+00)
-394.027 .... 801 packets received, 4177 bps, 52.21%, Err 0 (0.0e+00)
-398.067 .... 802 packets received, 4140 bps, 51.75%, Err 0 (0.0e+00)
-400.544 .... 803 packets received, 4119 bps, 51.49%, Err 0 (0.0e+00)
-402.638 .... 811 packets received, 4138 bps, 51.73%, Err 0 (0.0e+00)
-404.772 .... 819 packets received, 4157 bps, 51.96%, Err 0 (0.0e+00)
-406.874 .... 827 packets received, 4176 bps, 52.20%, Err 0 (0.0e+00)
-408.982 .... 835 packets received, 4195 bps, 52.43%, Err 0 (0.0e+00)
-411.085 .... 843 packets received, 4213 bps, 52.66%, Err 0 (0.0e+00)
-413.209 .... 851 packets received, 4231 bps, 52.89%, Err 0 (0.0e+00)
-415.311 .... 859 packets received, 4249 bps, 53.12%, Err 0 (0.0e+00)
-417.440 .... 867 packets received, 4267 bps, 53.34%, Err 0 (0.0e+00)
-419.530 .... 875 packets received, 4285 bps, 53.56%, Err 0 (0.0e+00)
-421.664 .... 883 packets received, 4302 bps, 53.77%, Err 0 (0.0e+00)
-423.773 .... 891 packets received, 4319 bps, 53.99%, Err 0 (0.0e+00)
-425.886 .... 899 packets received, 4336 bps, 54.20%, Err 0 (0.0e+00)
-427.980 .... 907 packets received, 4353 bps, 54.42%, Err 0 (0.0e+00)
-430.098 .... 915 packets received, 4370 bps, 54.63%, Err 0 (0.0e+00)
-432.223 .... 923 packets received, 4387 bps, 54.83%, Err 0 (0.0e+00)
-434.317 .... 931 packets received, 4403 bps, 55.04%, Err 0 (0.0e+00)
-436.436 .... 939 packets received, 4419 bps, 55.24%, Err 0 (0.0e+00)
-438.545 .... 947 packets received, 4436 bps, 55.44%, Err 0 (0.0e+00)
-440.665 .... 955 packets received, 4451 bps, 55.64%, Err 0 (0.0e+00)
-442.779 .... 963 packets received, 4467 bps, 55.84%, Err 0 (0.0e+00)
-444.901 .... 971 packets received, 4483 bps, 56.04%, Err 0 (0.0e+00)
-447.010 .... 979 packets received, 4498 bps, 56.23%, Err 0 (0.0e+00)
-449.119 .... 987 packets received, 4514 bps, 56.42%, Err 0 (0.0e+00)
-451.232 .... 995 packets received, 4529 bps, 56.61%, Err 0 (0.0e+00)
-453.346 .... 1003 packets received, 4544 bps, 56.80%, Err 0 (0.0e+00)
-455.460 .... 1011 packets received, 4559 bps, 56.99%, Err 0 (0.0e+00)
-457.558 .... 1019 packets received, 4574 bps, 57.17%, Err 0 (0.0e+00)
-459.668 .... 1027 packets received, 4589 bps, 57.36%, Err 0 (0.0e+00)
-461.786 .... 1035 packets received, 4603 bps, 57.54%, Err 0 (0.0e+00)
-463.903 .... 1043 packets received, 4617 bps, 57.72%, Err 0 (0.0e+00)
-466.020 .... 1051 packets received, 4632 bps, 57.90%, Err 0 (0.0e+00)
-468.123 .... 1059 packets received, 4646 bps, 58.07%, Err 0 (0.0e+00)
-470.245 .... 1067 packets received, 4660 bps, 58.25%, Err 0 (0.0e+00)
-472.348 .... 1075 packets received, 4674 bps, 58.42%, Err 0 (0.0e+00)
-474.463 .... 1083 packets received, 4688 bps, 58.59%, Err 0 (0.0e+00)
-476.564 .... 1091 packets received, 4701 bps, 58.77%, Err 0 (0.0e+00)
-478.706 .... 1099 packets received, 4715 bps, 58.93%, Err 0 (0.0e+00)
-480.783 .... 1107 packets received, 4728 bps, 59.10%, Err 0 (0.0e+00)
-482.894 .... 1115 packets received, 4742 bps, 59.27%, Err 0 (0.0e+00)
-485.016 .... 1123 packets received, 4755 bps, 59.43%, Err 0 (0.0e+00)
-487.133 .... 1131 packets received, 4768 bps, 59.60%, Err 0 (0.0e+00)
-489.247 .... 1139 packets received, 4781 bps, 59.76%, Err 0 (0.0e+00)
-491.346 .... 1147 packets received, 4794 bps, 59.92%, Err 0 (0.0e+00)
-493.465 .... 1155 packets received, 4806 bps, 60.08%, Err 0 (0.0e+00)
-495.568 .... 1163 packets received, 4819 bps, 60.24%, Err 0 (0.0e+00)
-497.698 .... 1171 packets received, 4831 bps, 60.39%, Err 0 (0.0e+00)
-499.812 .... 1179 packets received, 4844 bps, 60.54%, Err 0 (0.0e+00)
-504.335 .... 1182 packets received, 4812 bps, 60.15%, Err 0 (0.0e+00)
-508.430 .... 1183 packets received, 4777 bps, 59.72%, Err 0 (0.0e+00)
-512.522 .... 1184 packets received, 4743 bps, 59.29%, Err 0 (0.0e+00)
-516.669 .... 1185 packets received, 4709 bps, 58.86%, Err 0 (0.0e+00)
-520.834 .... 1186 packets received, 4675 bps, 58.44%, Err 0 (0.0e+00)
-524.849 .... 1187 packets received, 4643 bps, 58.04%, Err 0 (0.0e+00)
-528.983 .... 1188 packets received, 4611 bps, 57.63%, Err 0 (0.0e+00)
-533.151 .... 1189 packets received, 4578 bps, 57.23%, Err 0 (0.0e+00)
-537.261 .... 1190 packets received, 4547 bps, 56.84%, Err 0 (0.0e+00)
-541.338 .... 1191 packets received, 4517 bps, 56.46%, Err 0 (0.0e+00)
-545.539 .... 1192 packets received, 4486 bps, 56.07%, Err 0 (0.0e+00)
-549.715 .... 1193 packets received, 4455 bps, 55.69%, Err 0 (0.0e+00)
-553.810 .... 1194 packets received, 4426 bps, 55.32%, Err 0 (0.0e+00)
-557.885 .... 1195 packets received, 4397 bps, 54.96%, Err 0 (0.0e+00)
-561.949 .... 1196 packets received, 4369 bps, 54.61%, Err 0 (0.0e+00)
-566.114 .... 1197 packets received, 4340 bps, 54.25%, Err 0 (0.0e+00)
-570.278 .... 1198 packets received, 4312 bps, 53.90%, Err 0 (0.0e+00)
-574.516 .... 1199 packets received, 4284 bps, 53.55%, Err 0 (0.0e+00)
-578.614 .... 1200 packets received, 4257 bps, 53.21%, Err 0 (0.0e+00)
-582.611 .... 1201 packets received, 4231 bps, 52.89%, Err 0 (0.0e+00)
-586.674 .... 1202 packets received, 4205 bps, 52.57%, Err 0 (0.0e+00)
-590.857 .... 1203 packets received, 4179 bps, 52.24%, Err 0 (0.0e+00)
-594.994 .... 1204 packets received, 4153 bps, 51.92%, Err 0 (0.0e+00)
-599.091 .... 1205 packets received, 4128 bps, 51.60%, Err 0 (0.0e+00)
-601.314 .... 1209 packets received, 4127 bps, 51.58%, Err 0 (0.0e+00)
-603.432 .... 1217 packets received, 4139 bps, 51.74%, Err 0 (0.0e+00)
-605.530 .... 1225 packets received, 4152 bps, 51.90%, Err 0 (0.0e+00)
-607.661 .... 1233 packets received, 4164 bps, 52.06%, Err 0 (0.0e+00)
-609.776 .... 1241 packets received, 4177 bps, 52.21%, Err 0 (0.0e+00)
-611.887 .... 1249 packets received, 4189 bps, 52.37%, Err 0 (0.0e+00)
-613.983 .... 1257 packets received, 4202 bps, 52.52%, Err 0 (0.0e+00)
-616.101 .... 1265 packets received, 4214 bps, 52.67%, Err 0 (0.0e+00)
-618.240 .... 1273 packets received, 4226 bps, 52.82%, Err 0 (0.0e+00)
-620.329 .... 1281 packets received, 4238 bps, 52.98%, Err 0 (0.0e+00)
-622.452 .... 1289 packets received, 4250 bps, 53.12%, Err 0 (0.0e+00)
-624.548 .... 1297 packets received, 4262 bps, 53.27%, Err 0 (0.0e+00)
-626.671 .... 1305 packets received, 4274 bps, 53.42%, Err 0 (0.0e+00)
-628.788 .... 1313 packets received, 4285 bps, 53.57%, Err 0 (0.0e+00)
-630.892 .... 1321 packets received, 4297 bps, 53.71%, Err 0 (0.0e+00)
-633.017 .... 1329 packets received, 4309 bps, 53.86%, Err 0 (0.0e+00)
-635.126 .... 1337 packets received, 4320 bps, 54.00%, Err 0 (0.0e+00)
-637.213 .... 1345 packets received, 4332 bps, 54.15%, Err 0 (0.0e+00)
-639.342 .... 1353 packets received, 4343 bps, 54.29%, Err 0 (0.0e+00)
-641.449 .... 1361 packets received, 4354 bps, 54.43%, Err 0 (0.0e+00)
-643.548 .... 1369 packets received, 4365 bps, 54.57%, Err 0 (0.0e+00)
-645.675 .... 1377 packets received, 4376 bps, 54.71%, Err 0 (0.0e+00)
-647.791 .... 1385 packets received, 4387 bps, 54.84%, Err 0 (0.0e+00)
-649.892 .... 1393 packets received, 4399 bps, 54.98%, Err 0 (0.0e+00)
-652.007 .... 1401 packets received, 4409 bps, 55.12%, Err 0 (0.0e+00)
-654.118 .... 1409 packets received, 4420 bps, 55.25%, Err 0 (0.0e+00)
-656.241 .... 1417 packets received, 4431 bps, 55.39%, Err 0 (0.0e+00)
-658.334 .... 1425 packets received, 4442 bps, 55.52%, Err 0 (0.0e+00)
-660.458 .... 1433 packets received, 4452 bps, 55.65%, Err 0 (0.0e+00)
-662.582 .... 1441 packets received, 4463 bps, 55.78%, Err 0 (0.0e+00)
-664.704 .... 1449 packets received, 4473 bps, 55.91%, Err 0 (0.0e+00)
-666.814 .... 1457 packets received, 4484 bps, 56.05%, Err 0 (0.0e+00)
-668.908 .... 1465 packets received, 4494 bps, 56.18%, Err 0 (0.0e+00)
-671.003 .... 1473 packets received, 4505 bps, 56.31%, Err 0 (0.0e+00)
-673.126 .... 1481 packets received, 4515 bps, 56.43%, Err 0 (0.0e+00)
-675.252 .... 1489 packets received, 4525 bps, 56.56%, Err 0 (0.0e+00)
-677.363 .... 1497 packets received, 4535 bps, 56.69%, Err 0 (0.0e+00)
-679.473 .... 1505 packets received, 4545 bps, 56.81%, Err 0 (0.0e+00)
-681.584 .... 1513 packets received, 4555 bps, 56.94%, Err 0 (0.0e+00)
-683.697 .... 1521 packets received, 4565 bps, 57.06%, Err 0 (0.0e+00)
-685.798 .... 1529 packets received, 4575 bps, 57.18%, Err 0 (0.0e+00)
-687.910 .... 1537 packets received, 4584 bps, 57.31%, Err 0 (0.0e+00)
-690.041 .... 1545 packets received, 4594 bps, 57.43%, Err 0 (0.0e+00)
-692.159 .... 1553 packets received, 4604 bps, 57.55%, Err 0 (0.0e+00)
-694.254 .... 1561 packets received, 4613 bps, 57.67%, Err 0 (0.0e+00)
-696.374 .... 1569 packets received, 4623 bps, 57.79%, Err 0 (0.0e+00)
-698.475 .... 1577 packets received, 4633 bps, 57.91%, Err 0 (0.0e+00)
-704.417 .... 1585 packets received, 4617 bps, 57.71%, Err 0 (0.0e+00)
-708.596 .... 1586 packets received, 4592 bps, 57.40%, Err 0 (0.0e+00)
-712.743 .... 1587 packets received, 4568 bps, 57.11%, Err 0 (0.0e+00)
-716.896 .... 1588 packets received, 4545 bps, 56.81%, Err 0 (0.0e+00)
-720.951 .... 1589 packets received, 4522 bps, 56.52%, Err 0 (0.0e+00)
-724.949 .... 1590 packets received, 4500 bps, 56.25%, Err 0 (0.0e+00)
-729.043 .... 1591 packets received, 4477 bps, 55.97%, Err 0 (0.0e+00)
-733.189 .... 1592 packets received, 4455 bps, 55.68%, Err 0 (0.0e+00)
-737.235 .... 1593 packets received, 4433 bps, 55.41%, Err 0 (0.0e+00)
-741.296 .... 1594 packets received, 4412 bps, 55.14%, Err 0 (0.0e+00)
-745.418 .... 1595 packets received, 4390 bps, 54.87%, Err 0 (0.0e+00)
-749.436 .... 1596 packets received, 4369 bps, 54.61%, Err 0 (0.0e+00)
-753.563 .... 1597 packets received, 4348 bps, 54.35%, Err 0 (0.0e+00)
-757.658 .... 1598 packets received, 4327 bps, 54.09%, Err 0 (0.0e+00)
-761.721 .... 1599 packets received, 4306 bps, 53.83%, Err 0 (0.0e+00)
-765.864 .... 1600 packets received, 4286 bps, 53.57%, Err 0 (0.0e+00)
-770.027 .... 1601 packets received, 4265 bps, 53.32%, Err 0 (0.0e+00)
-774.135 .... 1602 packets received, 4245 bps, 53.07%, Err 0 (0.0e+00)
-778.200 .... 1603 packets received, 4226 bps, 52.82%, Err 0 (0.0e+00)
-782.376 .... 1604 packets received, 4206 bps, 52.57%, Err 0 (0.0e+00)
-786.505 .... 1605 packets received, 4186 bps, 52.33%, Err 0 (0.0e+00)
-790.581 .... 1606 packets received, 4167 bps, 52.09%, Err 0 (0.0e+00)
-794.676 .... 1607 packets received, 4148 bps, 51.85%, Err 0 (0.0e+00)
-798.781 .... 1608 packets received, 4129 bps, 51.62%, Err 0 (0.0e+00)
-800.798 .... 1610 packets received, 4124 bps, 51.55%, Err 0 (0.0e+00)
-802.938 .... 1618 packets received, 4134 bps, 51.67%, Err 0 (0.0e+00)
-805.035 .... 1626 packets received, 4143 bps, 51.79%, Err 0 (0.0e+00)
-807.137 .... 1634 packets received, 4153 bps, 51.91%, Err 0 (0.0e+00)
-809.267 .... 1642 packets received, 4162 bps, 52.03%, Err 0 (0.0e+00)
-811.377 .... 1650 packets received, 4171 bps, 52.14%, Err 0 (0.0e+00)
-813.472 .... 1658 packets received, 4181 bps, 52.26%, Err 0 (0.0e+00)
-815.592 .... 1666 packets received, 4190 bps, 52.38%, Err 0 (0.0e+00)
-817.712 .... 1674 packets received, 4199 bps, 52.49%, Err 0 (0.0e+00)
-819.807 .... 1682 packets received, 4209 bps, 52.61%, Err 0 (0.0e+00)
-821.916 .... 1690 packets received, 4218 bps, 52.72%, Err 0 (0.0e+00)
-824.030 .... 1698 packets received, 4227 bps, 52.83%, Err 0 (0.0e+00)
-826.153 .... 1706 packets received, 4236 bps, 52.95%, Err 0 (0.0e+00)
-828.281 .... 1714 packets received, 4245 bps, 53.06%, Err 0 (0.0e+00)
-830.392 .... 1722 packets received, 4254 bps, 53.17%, Err 0 (0.0e+00)
-832.476 .... 1730 packets received, 4263 bps, 53.28%, Err 0 (0.0e+00)
-834.616 .... 1738 packets received, 4271 bps, 53.39%, Err 0 (0.0e+00)
-836.725 .... 1746 packets received, 4280 bps, 53.50%, Err 0 (0.0e+00)
-838.804 .... 1754 packets received, 4289 bps, 53.61%, Err 0 (0.0e+00)
-840.926 .... 1762 packets received, 4298 bps, 53.72%, Err 0 (0.0e+00)
-843.063 .... 1770 packets received, 4306 bps, 53.83%, Err 0 (0.0e+00)
-845.169 .... 1778 packets received, 4315 bps, 53.94%, Err 0 (0.0e+00)
-847.274 .... 1786 packets received, 4324 bps, 54.05%, Err 0 (0.0e+00)
-849.383 .... 1794 packets received, 4332 bps, 54.15%, Err 0 (0.0e+00)
-851.507 .... 1802 packets received, 4341 bps, 54.26%, Err 0 (0.0e+00)
-853.618 .... 1810 packets received, 4349 bps, 54.36%, Err 0 (0.0e+00)
-855.711 .... 1818 packets received, 4358 bps, 54.47%, Err 0 (0.0e+00)
-857.821 .... 1826 packets received, 4366 bps, 54.58%, Err 0 (0.0e+00)
-859.962 .... 1834 packets received, 4374 bps, 54.68%, Err 0 (0.0e+00)
-862.057 .... 1842 packets received, 4383 bps, 54.78%, Err 0 (0.0e+00)
-864.182 .... 1850 packets received, 4391 bps, 54.89%, Err 0 (0.0e+00)
-866.267 .... 1858 packets received, 4399 bps, 54.99%, Err 0 (0.0e+00)
-868.408 .... 1866 packets received, 4407 bps, 55.09%, Err 0 (0.0e+00)
-870.520 .... 1874 packets received, 4415 bps, 55.19%, Err 0 (0.0e+00)
-872.592 .... 1882 packets received, 4424 bps, 55.30%, Err 0 (0.0e+00)
-874.737 .... 1890 packets received, 4432 bps, 55.39%, Err 0 (0.0e+00)
-876.855 .... 1898 packets received, 4440 bps, 55.49%, Err 0 (0.0e+00)
-878.966 .... 1906 packets received, 4448 bps, 55.59%, Err 0 (0.0e+00)
-881.076 .... 1914 packets received, 4456 bps, 55.69%, Err 0 (0.0e+00)
-883.154 .... 1922 packets received, 4464 bps, 55.79%, Err 0 (0.0e+00)
-885.289 .... 1930 packets received, 4471 bps, 55.89%, Err 0 (0.0e+00)
-887.396 .... 1938 packets received, 4479 bps, 55.99%, Err 0 (0.0e+00)
-889.494 .... 1946 packets received, 4487 bps, 56.09%, Err 0 (0.0e+00)
-891.625 .... 1954 packets received, 4495 bps, 56.18%, Err 0 (0.0e+00)
-893.717 .... 1962 packets received, 4503 bps, 56.28%, Err 0 (0.0e+00)
-895.844 .... 1970 packets received, 4510 bps, 56.38%, Err 0 (0.0e+00)
-897.939 .... 1978 packets received, 4518 bps, 56.47%, Err 0 (0.0e+00)
-900.054 .... 1986 packets received, 4526 bps, 56.57%, Err 0 (0.0e+00)
-904.412 .... 1988 packets received, 4508 bps, 56.35%, Err 0 (0.0e+00)
-908.485 .... 1989 packets received, 4490 bps, 56.13%, Err 0 (0.0e+00)
-912.582 .... 1990 packets received, 4472 bps, 55.90%, Err 0 (0.0e+00)
-916.709 .... 1991 packets received, 4454 bps, 55.68%, Err 0 (0.0e+00)
-920.949 .... 1992 packets received, 4436 bps, 55.45%, Err 0 (0.0e+00)
-925.175 .... 1993 packets received, 4418 bps, 55.22%, Err 0 (0.0e+00)
-929.243 .... 1994 packets received, 4401 bps, 55.01%, Err 0 (0.0e+00)
-933.328 .... 1995 packets received, 4384 bps, 54.80%, Err 0 (0.0e+00)
-937.497 .... 1996 packets received, 4366 bps, 54.58%, Err 0 (0.0e+00)
-941.519 .... 1997 packets received, 4350 bps, 54.37%, Err 0 (0.0e+00)
-945.641 .... 1998 packets received, 4333 bps, 54.16%, Err 0 (0.0e+00)
-949.766 .... 1999 packets received, 4316 bps, 53.95%, Err 0 (0.0e+00)
-953.837 .... 2000 packets received, 4300 bps, 53.75%, Err 0 (0.0e+00)
-957.871 .... 2001 packets received, 4284 bps, 53.55%, Err 0 (0.0e+00)
-961.899 .... 2002 packets received, 4268 bps, 53.35%, Err 0 (0.0e+00)
-965.995 .... 2003 packets received, 4252 bps, 53.15%, Err 0 (0.0e+00)
-970.125 .... 2004 packets received, 4236 bps, 52.95%, Err 0 (0.0e+00)
-974.141 .... 2005 packets received, 4221 bps, 52.76%, Err 0 (0.0e+00)
-978.395 .... 2006 packets received, 4205 bps, 52.56%, Err 0 (0.0e+00)
-982.478 .... 2007 packets received, 4189 bps, 52.36%, Err 0 (0.0e+00)
-986.617 .... 2008 packets received, 4174 bps, 52.17%, Err 0 (0.0e+00)
-990.787 .... 2009 packets received, 4158 bps, 51.98%, Err 0 (0.0e+00)
-994.882 .... 2010 packets received, 4143 bps, 51.79%, Err 0 (0.0e+00)
-999.019 .... 2011 packets received, 4128 bps, 51.60%, Err 0 (0.0e+00)
-1001.062 .... 2014 packets received, 4126 bps, 51.57%, Err 0 (0.0e+00)
-1003.175 .... 2022 packets received, 4133 bps, 51.67%, Err 0 (0.0e+00)
-1005.274 .... 2030 packets received, 4141 bps, 51.76%, Err 0 (0.0e+00)
-1007.375 .... 2038 packets received, 4149 bps, 51.86%, Err 0 (0.0e+00)
-1009.506 .... 2046 packets received, 4156 bps, 51.95%, Err 0 (0.0e+00)
-1011.614 .... 2054 packets received, 4164 bps, 52.05%, Err 0 (0.0e+00)
-1013.733 .... 2062 packets received, 4171 bps, 52.14%, Err 0 (0.0e+00)
-1015.848 .... 2070 packets received, 4179 bps, 52.23%, Err 0 (0.0e+00)
-1017.940 .... 2078 packets received, 4186 bps, 52.33%, Err 0 (0.0e+00)
-1020.071 .... 2086 packets received, 4193 bps, 52.42%, Err 0 (0.0e+00)
-1022.188 .... 2094 packets received, 4201 bps, 52.51%, Err 0 (0.0e+00)
-1024.291 .... 2102 packets received, 4208 bps, 52.60%, Err 0 (0.0e+00)
-1026.386 .... 2110 packets received, 4216 bps, 52.69%, Err 0 (0.0e+00)
-1028.530 .... 2118 packets received, 4223 bps, 52.78%, Err 0 (0.0e+00)
-1030.619 .... 2126 packets received, 4230 bps, 52.88%, Err 0 (0.0e+00)
-1032.733 .... 2134 packets received, 4237 bps, 52.97%, Err 0 (0.0e+00)
-1034.846 .... 2142 packets received, 4244 bps, 53.06%, Err 0 (0.0e+00)
-1036.958 .... 2150 packets received, 4252 bps, 53.14%, Err 0 (0.0e+00)
-1039.068 .... 2158 packets received, 4259 bps, 53.23%, Err 0 (0.0e+00)
-1041.206 .... 2166 packets received, 4266 bps, 53.32%, Err 0 (0.0e+00)
-1043.285 .... 2174 packets received, 4273 bps, 53.41%, Err 0 (0.0e+00)
-1045.432 .... 2182 packets received, 4280 bps, 53.50%, Err 0 (0.0e+00)
-1047.526 .... 2190 packets received, 4287 bps, 53.59%, Err 0 (0.0e+00)
-1049.630 .... 2198 packets received, 4294 bps, 53.67%, Err 0 (0.0e+00)
-1051.738 .... 2206 packets received, 4301 bps, 53.76%, Err 0 (0.0e+00)
-1053.845 .... 2214 packets received, 4308 bps, 53.85%, Err 0 (0.0e+00)
-1055.966 .... 2222 packets received, 4315 bps, 53.93%, Err 0 (0.0e+00)
-1058.094 .... 2230 packets received, 4322 bps, 54.02%, Err 0 (0.0e+00)
-1060.206 .... 2238 packets received, 4328 bps, 54.11%, Err 0 (0.0e+00)
-1062.324 .... 2246 packets received, 4335 bps, 54.19%, Err 0 (0.0e+00)
-1064.431 .... 2254 packets received, 4342 bps, 54.28%, Err 0 (0.0e+00)
-1066.541 .... 2262 packets received, 4349 bps, 54.36%, Err 0 (0.0e+00)
-1068.637 .... 2270 packets received, 4356 bps, 54.45%, Err 0 (0.0e+00)
-1070.750 .... 2278 packets received, 4362 bps, 54.53%, Err 0 (0.0e+00)
-1072.856 .... 2286 packets received, 4369 bps, 54.61%, Err 0 (0.0e+00)
-1074.975 .... 2294 packets received, 4376 bps, 54.70%, Err 0 (0.0e+00)
-1077.092 .... 2302 packets received, 4382 bps, 54.78%, Err 0 (0.0e+00)
-1079.215 .... 2310 packets received, 4389 bps, 54.86%, Err 0 (0.0e+00)
-1081.322 .... 2318 packets received, 4396 bps, 54.94%, Err 0 (0.0e+00)
-1083.419 .... 2326 packets received, 4402 bps, 55.03%, Err 0 (0.0e+00)
-1085.533 .... 2334 packets received, 4409 bps, 55.11%, Err 0 (0.0e+00)
-1087.653 .... 2342 packets received, 4415 bps, 55.19%, Err 0 (0.0e+00)
-1089.758 .... 2350 packets received, 4422 bps, 55.27%, Err 0 (0.0e+00)
-1091.889 .... 2358 packets received, 4428 bps, 55.35%, Err 0 (0.0e+00)
-1093.987 .... 2366 packets received, 4435 bps, 55.43%, Err 0 (0.0e+00)
-1096.096 .... 2374 packets received, 4441 bps, 55.51%, Err 0 (0.0e+00)
-1098.230 .... 2382 packets received, 4447 bps, 55.59%, Err 0 (0.0e+00)
-1100.329 .... 2390 packets received, 4454 bps, 55.67%, Err 0 (0.0e+00)
-1104.398 .... 2391 packets received, 4439 bps, 55.49%, Err 0 (0.0e+00)
-1108.444 .... 2392 packets received, 4425 bps, 55.31%, Err 0 (0.0e+00)
-1112.592 .... 2393 packets received, 4410 bps, 55.13%, Err 0 (0.0e+00)
-1116.665 .... 2394 packets received, 4396 bps, 54.95%, Err 0 (0.0e+00)
-1120.813 .... 2395 packets received, 4381 bps, 54.77%, Err 0 (0.0e+00)
-1124.877 .... 2396 packets received, 4367 bps, 54.59%, Err 0 (0.0e+00)
-1128.982 .... 2397 packets received, 4353 bps, 54.42%, Err 0 (0.0e+00)
-1133.067 .... 2398 packets received, 4339 bps, 54.24%, Err 0 (0.0e+00)
-1137.186 .... 2399 packets received, 4325 bps, 54.07%, Err 0 (0.0e+00)
-1141.254 .... 2400 packets received, 4312 bps, 53.90%, Err 0 (0.0e+00)
-1145.352 .... 2401 packets received, 4298 bps, 53.73%, Err 0 (0.0e+00)
-1149.503 .... 2402 packets received, 4284 bps, 53.55%, Err 0 (0.0e+00)
-1153.650 .... 2403 packets received, 4271 bps, 53.38%, Err 0 (0.0e+00)
-1157.756 .... 2404 packets received, 4257 bps, 53.22%, Err 0 (0.0e+00)
-1161.852 .... 2405 packets received, 4244 bps, 53.05%, Err 0 (0.0e+00)
-1166.018 .... 2406 packets received, 4231 bps, 52.88%, Err 0 (0.0e+00)
-1170.052 .... 2407 packets received, 4218 bps, 52.72%, Err 0 (0.0e+00)
-1174.208 .... 2408 packets received, 4205 bps, 52.56%, Err 0 (0.0e+00)
-1178.283 .... 2409 packets received, 4192 bps, 52.40%, Err 0 (0.0e+00)
-1182.350 .... 2410 packets received, 4179 bps, 52.24%, Err 0 (0.0e+00)
-1186.376 .... 2411 packets received, 4167 bps, 52.08%, Err 0 (0.0e+00)
-1190.604 .... 2412 packets received, 4153 bps, 51.92%, Err 0 (0.0e+00)
-1194.794 .... 2413 packets received, 4141 bps, 51.76%, Err 0 (0.0e+00)
-1198.854 .... 2414 packets received, 4128 bps, 51.60%, Err 0 (0.0e+00)
-1201.072 .... 2417 packets received, 4126 bps, 51.57%, Err 0 (0.0e+00)
-1203.188 .... 2425 packets received, 4132 bps, 51.65%, Err 0 (0.0e+00)
-1205.288 .... 2433 packets received, 4139 bps, 51.73%, Err 0 (0.0e+00)
-1207.402 .... 2441 packets received, 4145 bps, 51.81%, Err 0 (0.0e+00)
-1209.511 .... 2449 packets received, 4151 bps, 51.89%, Err 0 (0.0e+00)
-1211.636 .... 2457 packets received, 4157 bps, 51.97%, Err 0 (0.0e+00)
-1213.746 .... 2465 packets received, 4164 bps, 52.05%, Err 0 (0.0e+00)
-1215.856 .... 2473 packets received, 4170 bps, 52.12%, Err 0 (0.0e+00)
-1217.970 .... 2481 packets received, 4176 bps, 52.20%, Err 0 (0.0e+00)
-1220.081 .... 2489 packets received, 4182 bps, 52.28%, Err 0 (0.0e+00)
-1222.196 .... 2497 packets received, 4189 bps, 52.36%, Err 0 (0.0e+00)
-1224.298 .... 2505 packets received, 4195 bps, 52.43%, Err 0 (0.0e+00)
-1226.411 .... 2513 packets received, 4201 bps, 52.51%, Err 0 (0.0e+00)
-1228.512 .... 2521 packets received, 4207 bps, 52.59%, Err 0 (0.0e+00)
-1230.637 .... 2529 packets received, 4213 bps, 52.66%, Err 0 (0.0e+00)
-1232.748 .... 2537 packets received, 4219 bps, 52.74%, Err 0 (0.0e+00)
-1234.857 .... 2545 packets received, 4225 bps, 52.82%, Err 0 (0.0e+00)
-1236.972 .... 2553 packets received, 4231 bps, 52.89%, Err 0 (0.0e+00)
-1239.069 .... 2561 packets received, 4237 bps, 52.97%, Err 0 (0.0e+00)
-1241.180 .... 2569 packets received, 4243 bps, 53.04%, Err 0 (0.0e+00)
-1243.309 .... 2577 packets received, 4249 bps, 53.12%, Err 0 (0.0e+00)
-1245.417 .... 2585 packets received, 4255 bps, 53.19%, Err 0 (0.0e+00)
-1247.510 .... 2593 packets received, 4261 bps, 53.27%, Err 0 (0.0e+00)
-1249.634 .... 2601 packets received, 4267 bps, 53.34%, Err 0 (0.0e+00)
-1251.758 .... 2609 packets received, 4273 bps, 53.41%, Err 0 (0.0e+00)
-1253.872 .... 2617 packets received, 4279 bps, 53.49%, Err 0 (0.0e+00)
-1255.995 .... 2625 packets received, 4285 bps, 53.56%, Err 0 (0.0e+00)
-1258.092 .... 2633 packets received, 4291 bps, 53.63%, Err 0 (0.0e+00)
-1260.203 .... 2641 packets received, 4296 bps, 53.71%, Err 0 (0.0e+00)
-1262.316 .... 2649 packets received, 4302 bps, 53.78%, Err 0 (0.0e+00)
-1264.410 .... 2657 packets received, 4308 bps, 53.85%, Err 0 (0.0e+00)
-1266.539 .... 2665 packets received, 4314 bps, 53.92%, Err 0 (0.0e+00)
-1268.632 .... 2673 packets received, 4320 bps, 53.99%, Err 0 (0.0e+00)
-1270.771 .... 2681 packets received, 4325 bps, 54.06%, Err 0 (0.0e+00)
-1272.872 .... 2689 packets received, 4331 bps, 54.14%, Err 0 (0.0e+00)
-1274.990 .... 2697 packets received, 4337 bps, 54.21%, Err 0 (0.0e+00)
-1277.103 .... 2705 packets received, 4342 bps, 54.28%, Err 0 (0.0e+00)
-1279.215 .... 2713 packets received, 4348 bps, 54.35%, Err 0 (0.0e+00)
-1281.326 .... 2721 packets received, 4354 bps, 54.42%, Err 0 (0.0e+00)
-1283.440 .... 2729 packets received, 4359 bps, 54.49%, Err 0 (0.0e+00)
-1285.558 .... 2737 packets received, 4365 bps, 54.56%, Err 0 (0.0e+00)
-1287.677 .... 2745 packets received, 4370 bps, 54.63%, Err 0 (0.0e+00)
-1289.751 .... 2753 packets received, 4376 bps, 54.70%, Err 0 (0.0e+00)
-1291.882 .... 2761 packets received, 4381 bps, 54.77%, Err 0 (0.0e+00)
-1293.989 .... 2769 packets received, 4387 bps, 54.84%, Err 0 (0.0e+00)
-1296.126 .... 2777 packets received, 4392 bps, 54.90%, Err 0 (0.0e+00)
-1298.209 .... 2785 packets received, 4398 bps, 54.97%, Err 0 (0.0e+00)
-1300.339 .... 2793 packets received, 4403 bps, 55.04%, Err 0 (0.0e+00)
-1304.360 .... 2794 packets received, 4391 bps, 54.89%, Err 0 (0.0e+00)
-1308.543 .... 2795 packets received, 4379 bps, 54.73%, Err 0 (0.0e+00)
-1312.644 .... 2796 packets received, 4367 bps, 54.58%, Err 0 (0.0e+00)
-1316.823 .... 2797 packets received, 4354 bps, 54.43%, Err 0 (0.0e+00)
-1320.901 .... 2798 packets received, 4342 bps, 54.28%, Err 0 (0.0e+00)
-1325.000 .... 2799 packets received, 4331 bps, 54.13%, Err 0 (0.0e+00)
-1329.150 .... 2800 packets received, 4319 bps, 53.98%, Err 0 (0.0e+00)
-1333.374 .... 2801 packets received, 4306 bps, 53.83%, Err 0 (0.0e+00)
-1337.455 .... 2802 packets received, 4295 bps, 53.68%, Err 0 (0.0e+00)
-1341.536 .... 2803 packets received, 4283 bps, 53.54%, Err 0 (0.0e+00)
-1345.587 .... 2804 packets received, 4272 bps, 53.40%, Err 0 (0.0e+00)
-1349.735 .... 2805 packets received, 4260 bps, 53.25%, Err 0 (0.0e+00)
-1353.729 .... 2806 packets received, 4249 bps, 53.11%, Err 0 (0.0e+00)
-1357.889 .... 2807 packets received, 4238 bps, 52.97%, Err 0 (0.0e+00)
-1361.980 .... 2808 packets received, 4226 bps, 52.83%, Err 0 (0.0e+00)
-1365.993 .... 2809 packets received, 4215 bps, 52.69%, Err 0 (0.0e+00)
-1370.108 .... 2810 packets received, 4204 bps, 52.55%, Err 0 (0.0e+00)
-1374.171 .... 2811 packets received, 4193 bps, 52.42%, Err 0 (0.0e+00)
-1378.316 .... 2812 packets received, 4182 bps, 52.28%, Err 0 (0.0e+00)
-1382.339 .... 2813 packets received, 4172 bps, 52.14%, Err 0 (0.0e+00)
-1386.455 .... 2814 packets received, 4161 bps, 52.01%, Err 0 (0.0e+00)
-1390.534 .... 2815 packets received, 4150 bps, 51.87%, Err 0 (0.0e+00)
-1394.651 .... 2816 packets received, 4139 bps, 51.74%, Err 0 (0.0e+00)
-1398.694 .... 2817 packets received, 4129 bps, 51.61%, Err 0 (0.0e+00)
-1400.796 .... 2819 packets received, 4125 bps, 51.57%, Err 0 (0.0e+00)
-1402.925 .... 2827 packets received, 4131 bps, 51.63%, Err 0 (0.0e+00)
-1405.040 .... 2835 packets received, 4136 bps, 51.70%, Err 0 (0.0e+00)
-1407.153 .... 2843 packets received, 4142 bps, 51.77%, Err 0 (0.0e+00)
-1409.248 .... 2851 packets received, 4147 bps, 51.84%, Err 0 (0.0e+00)
-1411.353 .... 2859 packets received, 4152 bps, 51.91%, Err 0 (0.0e+00)
-1413.478 .... 2867 packets received, 4158 bps, 51.97%, Err 0 (0.0e+00)
-1415.593 .... 2875 packets received, 4163 bps, 52.04%, Err 0 (0.0e+00)
-1417.697 .... 2883 packets received, 4169 bps, 52.11%, Err 0 (0.0e+00)
-1419.820 .... 2891 packets received, 4174 bps, 52.17%, Err 0 (0.0e+00)
-1421.930 .... 2899 packets received, 4179 bps, 52.24%, Err 0 (0.0e+00)
-1424.027 .... 2907 packets received, 4185 bps, 52.31%, Err 0 (0.0e+00)
-1426.145 .... 2915 packets received, 4190 bps, 52.37%, Err 0 (0.0e+00)
-1428.261 .... 2923 packets received, 4195 bps, 52.44%, Err 0 (0.0e+00)
-1430.370 .... 2931 packets received, 4200 bps, 52.51%, Err 0 (0.0e+00)
-1432.489 .... 2939 packets received, 4206 bps, 52.57%, Err 0 (0.0e+00)
-1434.612 .... 2947 packets received, 4211 bps, 52.64%, Err 0 (0.0e+00)
-1436.726 .... 2955 packets received, 4216 bps, 52.70%, Err 0 (0.0e+00)
-1438.797 .... 2963 packets received, 4221 bps, 52.77%, Err 0 (0.0e+00)
-1440.948 .... 2971 packets received, 4226 bps, 52.83%, Err 0 (0.0e+00)
-1443.055 .... 2979 packets received, 4232 bps, 52.90%, Err 0 (0.0e+00)
-1445.164 .... 2987 packets received, 4237 bps, 52.96%, Err 0 (0.0e+00)
-1447.277 .... 2995 packets received, 4242 bps, 53.02%, Err 0 (0.0e+00)
-1449.371 .... 3003 packets received, 4247 bps, 53.09%, Err 0 (0.0e+00)
-1451.496 .... 3011 packets received, 4252 bps, 53.15%, Err 0 (0.0e+00)
-1453.607 .... 3019 packets received, 4257 bps, 53.22%, Err 0 (0.0e+00)
-1455.715 .... 3027 packets received, 4262 bps, 53.28%, Err 0 (0.0e+00)
-1457.841 .... 3035 packets received, 4267 bps, 53.34%, Err 0 (0.0e+00)
-1459.927 .... 3043 packets received, 4273 bps, 53.41%, Err 0 (0.0e+00)
-1462.057 .... 3051 packets received, 4278 bps, 53.47%, Err 0 (0.0e+00)
-1464.160 .... 3059 packets received, 4283 bps, 53.53%, Err 0 (0.0e+00)
-1466.281 .... 3067 packets received, 4288 bps, 53.59%, Err 0 (0.0e+00)
-1468.397 .... 3075 packets received, 4293 bps, 53.66%, Err 0 (0.0e+00)
-1470.496 .... 3083 packets received, 4298 bps, 53.72%, Err 0 (0.0e+00)
-1472.615 .... 3091 packets received, 4303 bps, 53.78%, Err 0 (0.0e+00)
-1474.728 .... 3099 packets received, 4307 bps, 53.84%, Err 0 (0.0e+00)
-1476.837 .... 3107 packets received, 4312 bps, 53.91%, Err 0 (0.0e+00)
-1478.936 .... 3115 packets received, 4317 bps, 53.97%, Err 0 (0.0e+00)
-1481.039 .... 3123 packets received, 4322 bps, 54.03%, Err 0 (0.0e+00)
-1483.170 .... 3131 packets received, 4327 bps, 54.09%, Err 0 (0.0e+00)
-1485.289 .... 3139 packets received, 4332 bps, 54.15%, Err 0 (0.0e+00)
-1487.395 .... 3147 packets received, 4337 bps, 54.21%, Err 0 (0.0e+00)
-1489.495 .... 3155 packets received, 4342 bps, 54.27%, Err 0 (0.0e+00)
-1491.607 .... 3163 packets received, 4347 bps, 54.33%, Err 0 (0.0e+00)
-1493.740 .... 3171 packets received, 4351 bps, 54.39%, Err 0 (0.0e+00)
-1495.864 .... 3179 packets received, 4356 bps, 54.45%, Err 0 (0.0e+00)
-1497.960 .... 3187 packets received, 4361 bps, 54.51%, Err 0 (0.0e+00)
-1500.074 .... 3195 packets received, 4366 bps, 54.57%, Err 0 (0.0e+00)
-1504.428 .... 3197 packets received, 4356 bps, 54.45%, Err 0 (0.0e+00)
-1508.469 .... 3198 packets received, 4346 bps, 54.32%, Err 0 (0.0e+00)
-1512.459 .... 3199 packets received, 4335 bps, 54.19%, Err 0 (0.0e+00)
-1516.559 .... 3200 packets received, 4325 bps, 54.06%, Err 0 (0.0e+00)
-1520.638 .... 3201 packets received, 4315 bps, 53.93%, Err 0 (0.0e+00)
-1524.629 .... 3202 packets received, 4305 bps, 53.81%, Err 0 (0.0e+00)
-1528.671 .... 3203 packets received, 4295 bps, 53.68%, Err 0 (0.0e+00)
-1532.894 .... 3204 packets received, 4284 bps, 53.55%, Err 0 (0.0e+00)
-1536.979 .... 3205 packets received, 4274 bps, 53.43%, Err 0 (0.0e+00)
-1541.018 .... 3206 packets received, 4264 bps, 53.30%, Err 0 (0.0e+00)
-1545.205 .... 3207 packets received, 4254 bps, 53.18%, Err 0 (0.0e+00)
-1549.238 .... 3208 packets received, 4244 bps, 53.05%, Err 0 (0.0e+00)
-1553.405 .... 3209 packets received, 4234 bps, 52.93%, Err 0 (0.0e+00)
-1557.432 .... 3210 packets received, 4225 bps, 52.81%, Err 0 (0.0e+00)
-1561.455 .... 3211 packets received, 4215 bps, 52.69%, Err 0 (0.0e+00)
-1565.540 .... 3212 packets received, 4205 bps, 52.57%, Err 0 (0.0e+00)
-1569.684 .... 3213 packets received, 4196 bps, 52.44%, Err 0 (0.0e+00)
-1573.781 .... 3214 packets received, 4186 bps, 52.32%, Err 0 (0.0e+00)
-1577.866 .... 3215 packets received, 4176 bps, 52.20%, Err 0 (0.0e+00)
-1582.027 .... 3216 packets received, 4167 bps, 52.08%, Err 0 (0.0e+00)
-1586.245 .... 3217 packets received, 4157 bps, 51.96%, Err 0 (0.0e+00)
-1590.341 .... 3218 packets received, 4147 bps, 51.84%, Err 0 (0.0e+00)
-1594.501 .... 3219 packets received, 4138 bps, 51.72%, Err 0 (0.0e+00)
-1598.600 .... 3220 packets received, 4129 bps, 51.61%, Err 0 (0.0e+00)
-1600.809 .... 3222 packets received, 4125 bps, 51.57%, Err 0 (0.0e+00)
-1602.911 .... 3230 packets received, 4130 bps, 51.63%, Err 0 (0.0e+00)
-1605.042 .... 3238 packets received, 4135 bps, 51.69%, Err 0 (0.0e+00)
-1607.144 .... 3246 packets received, 4140 bps, 51.75%, Err 0 (0.0e+00)
-1609.260 .... 3254 packets received, 4144 bps, 51.81%, Err 0 (0.0e+00)
-1611.377 .... 3262 packets received, 4149 bps, 51.87%, Err 0 (0.0e+00)
-1613.479 .... 3270 packets received, 4154 bps, 51.92%, Err 0 (0.0e+00)
-1615.597 .... 3278 packets received, 4159 bps, 51.98%, Err 0 (0.0e+00)
-1617.714 .... 3286 packets received, 4163 bps, 52.04%, Err 0 (0.0e+00)
-1619.802 .... 3294 packets received, 4168 bps, 52.10%, Err 0 (0.0e+00)
-1621.935 .... 3302 packets received, 4173 bps, 52.16%, Err 0 (0.0e+00)
-1624.052 .... 3310 packets received, 4177 bps, 52.22%, Err 0 (0.0e+00)
-1626.141 .... 3318 packets received, 4182 bps, 52.28%, Err 0 (0.0e+00)
-1628.274 .... 3326 packets received, 4187 bps, 52.33%, Err 0 (0.0e+00)
-1630.363 .... 3334 packets received, 4191 bps, 52.39%, Err 0 (0.0e+00)
-1632.480 .... 3342 packets received, 4196 bps, 52.45%, Err 0 (0.0e+00)
-1634.599 .... 3350 packets received, 4201 bps, 52.51%, Err 0 (0.0e+00)
-1636.702 .... 3358 packets received, 4205 bps, 52.56%, Err 0 (0.0e+00)
-1638.834 .... 3366 packets received, 4210 bps, 52.62%, Err 0 (0.0e+00)
-1640.937 .... 3374 packets received, 4214 bps, 52.68%, Err 0 (0.0e+00)
-1643.040 .... 3382 packets received, 4219 bps, 52.74%, Err 0 (0.0e+00)
-1645.159 .... 3390 packets received, 4223 bps, 52.79%, Err 0 (0.0e+00)
-1647.260 .... 3398 packets received, 4228 bps, 52.85%, Err 0 (0.0e+00)
-1649.393 .... 3406 packets received, 4232 bps, 52.91%, Err 0 (0.0e+00)
-1651.509 .... 3414 packets received, 4237 bps, 52.96%, Err 0 (0.0e+00)
-1653.612 .... 3422 packets received, 4241 bps, 53.02%, Err 0 (0.0e+00)
-1655.717 .... 3430 packets received, 4246 bps, 53.07%, Err 0 (0.0e+00)
-1657.836 .... 3438 packets received, 4250 bps, 53.13%, Err 0 (0.0e+00)
-1659.941 .... 3446 packets received, 4255 bps, 53.19%, Err 0 (0.0e+00)
-1662.059 .... 3454 packets received, 4259 bps, 53.24%, Err 0 (0.0e+00)
-1664.177 .... 3462 packets received, 4264 bps, 53.30%, Err 0 (0.0e+00)
-1666.294 .... 3470 packets received, 4268 bps, 53.35%, Err 0 (0.0e+00)
-1668.380 .... 3478 packets received, 4273 bps, 53.41%, Err 0 (0.0e+00)
-1670.511 .... 3486 packets received, 4277 bps, 53.46%, Err 0 (0.0e+00)
-1672.628 .... 3494 packets received, 4281 bps, 53.52%, Err 0 (0.0e+00)
-1674.715 .... 3502 packets received, 4286 bps, 53.57%, Err 0 (0.0e+00)
-1676.833 .... 3510 packets received, 4290 bps, 53.63%, Err 0 (0.0e+00)
-1678.952 .... 3518 packets received, 4295 bps, 53.68%, Err 0 (0.0e+00)
-1681.056 .... 3526 packets received, 4299 bps, 53.74%, Err 0 (0.0e+00)
-1683.174 .... 3534 packets received, 4303 bps, 53.79%, Err 0 (0.0e+00)
-1685.291 .... 3542 packets received, 4308 bps, 53.85%, Err 0 (0.0e+00)
-1687.408 .... 3550 packets received, 4312 bps, 53.90%, Err 0 (0.0e+00)
-1689.525 .... 3558 packets received, 4316 bps, 53.95%, Err 0 (0.0e+00)
-1691.627 .... 3566 packets received, 4321 bps, 54.01%, Err 0 (0.0e+00)
-1693.746 .... 3574 packets received, 4325 bps, 54.06%, Err 0 (0.0e+00)
-1695.851 .... 3582 packets received, 4329 bps, 54.11%, Err 0 (0.0e+00)
-1697.955 .... 3590 packets received, 4333 bps, 54.17%, Err 0 (0.0e+00)
-1700.067 .... 3598 packets received, 4338 bps, 54.22%, Err 0 (0.0e+00)
-1704.499 .... 3600 packets received, 4329 bps, 54.11%, Err 0 (0.0e+00)
-1708.617 .... 3601 packets received, 4320 bps, 53.99%, Err 0 (0.0e+00)
-1712.706 .... 3602 packets received, 4310 bps, 53.88%, Err 0 (0.0e+00)
-1716.767 .... 3603 packets received, 4301 bps, 53.77%, Err 0 (0.0e+00)
-1720.814 .... 3604 packets received, 4292 bps, 53.66%, Err 0 (0.0e+00)
-1724.989 .... 3605 packets received, 4283 bps, 53.54%, Err 0 (0.0e+00)
-1729.059 .... 3606 packets received, 4274 bps, 53.43%, Err 0 (0.0e+00)
-1733.131 .... 3607 packets received, 4265 bps, 53.32%, Err 0 (0.0e+00)
-1737.247 .... 3608 packets received, 4257 bps, 53.21%, Err 0 (0.0e+00)
-1741.407 .... 3609 packets received, 4248 bps, 53.09%, Err 0 (0.0e+00)
-1745.526 .... 3610 packets received, 4239 bps, 52.98%, Err 0 (0.0e+00)
-1749.588 .... 3611 packets received, 4230 bps, 52.88%, Err 0 (0.0e+00)
-1753.628 .... 3612 packets received, 4221 bps, 52.77%, Err 0 (0.0e+00)
-1757.684 .... 3613 packets received, 4213 bps, 52.66%, Err 0 (0.0e+00)
-1761.691 .... 3614 packets received, 4204 bps, 52.56%, Err 0 (0.0e+00)
-1765.777 .... 3615 packets received, 4196 bps, 52.45%, Err 0 (0.0e+00)
-1769.887 .... 3616 packets received, 4187 bps, 52.34%, Err 0 (0.0e+00)
-1773.920 .... 3617 packets received, 4179 bps, 52.24%, Err 0 (0.0e+00)
-1778.006 .... 3618 packets received, 4170 bps, 52.13%, Err 0 (0.0e+00)
-1782.148 .... 3619 packets received, 4162 bps, 52.02%, Err 0 (0.0e+00)
-1786.163 .... 3620 packets received, 4154 bps, 51.92%, Err 0 (0.0e+00)
-1790.296 .... 3621 packets received, 4145 bps, 51.82%, Err 0 (0.0e+00)
-1794.350 .... 3622 packets received, 4137 bps, 51.71%, Err 0 (0.0e+00)
-1798.374 .... 3623 packets received, 4129 bps, 51.61%, Err 0 (0.0e+00)
-1800.554 .... 3624 packets received, 4125 bps, 51.56%, Err 0 (0.0e+00)
-1802.659 .... 3632 packets received, 4129 bps, 51.62%, Err 0 (0.0e+00)
-1804.779 .... 3640 packets received, 4134 bps, 51.67%, Err 0 (0.0e+00)
-1806.871 .... 3648 packets received, 4138 bps, 51.72%, Err 0 (0.0e+00)
-1808.994 .... 3656 packets received, 4142 bps, 51.78%, Err 0 (0.0e+00)
-1811.103 .... 3664 packets received, 4146 bps, 51.83%, Err 0 (0.0e+00)
-1813.210 .... 3672 packets received, 4150 bps, 51.88%, Err 0 (0.0e+00)
-1815.318 .... 3680 packets received, 4155 bps, 51.93%, Err 0 (0.0e+00)
-1817.440 .... 3688 packets received, 4159 bps, 51.99%, Err 0 (0.0e+00)
-1819.557 .... 3696 packets received, 4163 bps, 52.04%, Err 0 (0.0e+00)
-1821.673 .... 3704 packets received, 4167 bps, 52.09%, Err 0 (0.0e+00)
-1823.789 .... 3712 packets received, 4171 bps, 52.14%, Err 0 (0.0e+00)
-1825.890 .... 3720 packets received, 4175 bps, 52.19%, Err 0 (0.0e+00)
-1828.007 .... 3728 packets received, 4180 bps, 52.25%, Err 0 (0.0e+00)
-1830.115 .... 3736 packets received, 4184 bps, 52.30%, Err 0 (0.0e+00)
-1832.235 .... 3744 packets received, 4188 bps, 52.35%, Err 0 (0.0e+00)
-1834.352 .... 3752 packets received, 4192 bps, 52.40%, Err 0 (0.0e+00)
-1836.443 .... 3760 packets received, 4196 bps, 52.45%, Err 0 (0.0e+00)
-1838.560 .... 3768 packets received, 4200 bps, 52.50%, Err 0 (0.0e+00)
-1840.664 .... 3776 packets received, 4204 bps, 52.55%, Err 0 (0.0e+00)
-1842.784 .... 3784 packets received, 4208 bps, 52.60%, Err 0 (0.0e+00)
-1844.904 .... 3792 packets received, 4212 bps, 52.66%, Err 0 (0.0e+00)
-1847.008 .... 3800 packets received, 4216 bps, 52.71%, Err 0 (0.0e+00)
-1849.114 .... 3808 packets received, 4221 bps, 52.76%, Err 0 (0.0e+00)
-1851.248 .... 3816 packets received, 4225 bps, 52.81%, Err 0 (0.0e+00)
-1853.353 .... 3824 packets received, 4229 bps, 52.86%, Err 0 (0.0e+00)
-1855.472 .... 3832 packets received, 4233 bps, 52.91%, Err 0 (0.0e+00)
-1857.562 .... 3840 packets received, 4237 bps, 52.96%, Err 0 (0.0e+00)
-1859.678 .... 3848 packets received, 4241 bps, 53.01%, Err 0 (0.0e+00)
-1861.795 .... 3856 packets received, 4245 bps, 53.06%, Err 0 (0.0e+00)
-1863.896 .... 3864 packets received, 4249 bps, 53.11%, Err 0 (0.0e+00)
-1866.012 .... 3872 packets received, 4253 bps, 53.16%, Err 0 (0.0e+00)
-1868.116 .... 3880 packets received, 4257 bps, 53.21%, Err 0 (0.0e+00)
-1870.250 .... 3888 packets received, 4260 bps, 53.26%, Err 0 (0.0e+00)
-1872.354 .... 3896 packets received, 4264 bps, 53.31%, Err 0 (0.0e+00)
-1874.460 .... 3904 packets received, 4268 bps, 53.35%, Err 0 (0.0e+00)
-1876.579 .... 3912 packets received, 4272 bps, 53.40%, Err 0 (0.0e+00)
-1878.681 .... 3920 packets received, 4276 bps, 53.45%, Err 0 (0.0e+00)
-1880.814 .... 3928 packets received, 4280 bps, 53.50%, Err 0 (0.0e+00)
-1882.901 .... 3936 packets received, 4284 bps, 53.55%, Err 0 (0.0e+00)
-1885.026 .... 3944 packets received, 4288 bps, 53.60%, Err 0 (0.0e+00)
-1887.154 .... 3952 packets received, 4292 bps, 53.65%, Err 0 (0.0e+00)
-1889.238 .... 3960 packets received, 4296 bps, 53.70%, Err 0 (0.0e+00)
-1891.342 .... 3968 packets received, 4300 bps, 53.75%, Err 0 (0.0e+00)
-1893.462 .... 3976 packets received, 4303 bps, 53.79%, Err 0 (0.0e+00)
-1895.561 .... 3984 packets received, 4307 bps, 53.84%, Err 0 (0.0e+00)
-1897.687 .... 3992 packets received, 4311 bps, 53.89%, Err 0 (0.0e+00)
-1899.812 .... 4000 packets received, 4315 bps, 53.94%, Err 0 (0.0e+00)
-1904.513 .... 4003 packets received, 4308 bps, 53.84%, Err 0 (0.0e+00)
-1908.658 .... 4004 packets received, 4299 bps, 53.74%, Err 0 (0.0e+00)
-1912.727 .... 4005 packets received, 4291 bps, 53.64%, Err 0 (0.0e+00)
-1916.868 .... 4006 packets received, 4283 bps, 53.54%, Err 0 (0.0e+00)
-1921.031 .... 4007 packets received, 4275 bps, 53.43%, Err 0 (0.0e+00)
-1925.245 .... 4008 packets received, 4266 bps, 53.33%, Err 0 (0.0e+00)
-1929.325 .... 4009 packets received, 4258 bps, 53.23%, Err 0 (0.0e+00)
-1933.448 .... 4010 packets received, 4250 bps, 53.13%, Err 0 (0.0e+00)
-1937.562 .... 4011 packets received, 4242 bps, 53.03%, Err 0 (0.0e+00)
-1941.581 .... 4012 packets received, 4235 bps, 52.93%, Err 0 (0.0e+00)
-1945.670 .... 4013 packets received, 4227 bps, 52.84%, Err 0 (0.0e+00)
-1949.762 .... 4014 packets received, 4219 bps, 52.74%, Err 0 (0.0e+00)
-1953.892 .... 4015 packets received, 4211 bps, 52.64%, Err 0 (0.0e+00)
-1958.033 .... 4016 packets received, 4203 bps, 52.54%, Err 0 (0.0e+00)
-1962.181 .... 4017 packets received, 4195 bps, 52.44%, Err 0 (0.0e+00)
-1966.243 .... 4018 packets received, 4188 bps, 52.35%, Err 0 (0.0e+00)
-1970.295 .... 4019 packets received, 4180 bps, 52.25%, Err 0 (0.0e+00)
-1974.304 .... 4020 packets received, 4173 bps, 52.16%, Err 0 (0.0e+00)
-1978.431 .... 4021 packets received, 4165 bps, 52.06%, Err 0 (0.0e+00)
-1982.499 .... 4022 packets received, 4158 bps, 51.97%, Err 0 (0.0e+00)
-1986.645 .... 4023 packets received, 4150 bps, 51.87%, Err 0 (0.0e+00)
-1990.791 .... 4024 packets received, 4142 bps, 51.78%, Err 0 (0.0e+00)
-1994.802 .... 4025 packets received, 4135 bps, 51.69%, Err 0 (0.0e+00)
-1998.842 .... 4026 packets received, 4128 bps, 51.60%, Err 0 (0.0e+00)
-2001.063 .... 4029 packets received, 4126 bps, 51.58%, Err 0 (0.0e+00)
-2003.180 .... 4037 packets received, 4130 bps, 51.62%, Err 0 (0.0e+00)
-2005.287 .... 4045 packets received, 4134 bps, 51.67%, Err 0 (0.0e+00)
-2007.393 .... 4053 packets received, 4138 bps, 51.72%, Err 0 (0.0e+00)
-2009.523 .... 4061 packets received, 4141 bps, 51.77%, Err 0 (0.0e+00)
-2011.613 .... 4069 packets received, 4145 bps, 51.82%, Err 0 (0.0e+00)
-2013.749 .... 4077 packets received, 4149 bps, 51.86%, Err 0 (0.0e+00)
-2015.833 .... 4085 packets received, 4153 bps, 51.91%, Err 0 (0.0e+00)
-2017.951 .... 4093 packets received, 4157 bps, 51.96%, Err 0 (0.0e+00)
-2020.083 .... 4101 packets received, 4160 bps, 52.00%, Err 0 (0.0e+00)
-2022.188 .... 4109 packets received, 4164 bps, 52.05%, Err 0 (0.0e+00)
-2024.305 .... 4117 packets received, 4168 bps, 52.10%, Err 0 (0.0e+00)
-2026.410 .... 4125 packets received, 4172 bps, 52.15%, Err 0 (0.0e+00)
-2028.515 .... 4133 packets received, 4175 bps, 52.19%, Err 0 (0.0e+00)
-2030.633 .... 4141 packets received, 4179 bps, 52.24%, Err 0 (0.0e+00)
-2032.752 .... 4149 packets received, 4183 bps, 52.28%, Err 0 (0.0e+00)
-2034.841 .... 4157 packets received, 4187 bps, 52.33%, Err 0 (0.0e+00)
-2036.973 .... 4165 packets received, 4190 bps, 52.38%, Err 0 (0.0e+00)
-2039.101 .... 4173 packets received, 4194 bps, 52.42%, Err 0 (0.0e+00)
-2041.199 .... 4181 packets received, 4198 bps, 52.47%, Err 0 (0.0e+00)
-2043.312 .... 4189 packets received, 4201 bps, 52.52%, Err 0 (0.0e+00)
-2045.429 .... 4197 packets received, 4205 bps, 52.56%, Err 0 (0.0e+00)
-2047.518 .... 4205 packets received, 4209 bps, 52.61%, Err 0 (0.0e+00)
-2049.650 .... 4213 packets received, 4212 bps, 52.65%, Err 0 (0.0e+00)
-2051.736 .... 4221 packets received, 4216 bps, 52.70%, Err 0 (0.0e+00)
-2053.877 .... 4229 packets received, 4220 bps, 52.74%, Err 0 (0.0e+00)
-2055.967 .... 4237 packets received, 4223 bps, 52.79%, Err 0 (0.0e+00)
-2058.107 .... 4245 packets received, 4227 bps, 52.84%, Err 0 (0.0e+00)
-2060.208 .... 4253 packets received, 4230 bps, 52.88%, Err 0 (0.0e+00)
-2062.310 .... 4261 packets received, 4234 bps, 52.93%, Err 0 (0.0e+00)
-2064.429 .... 4269 packets received, 4238 bps, 52.97%, Err 0 (0.0e+00)
-2066.544 .... 4277 packets received, 4241 bps, 53.02%, Err 0 (0.0e+00)
-2068.634 .... 4285 packets received, 4245 bps, 53.06%, Err 0 (0.0e+00)
-2070.761 .... 4293 packets received, 4248 bps, 53.11%, Err 0 (0.0e+00)
-2072.886 .... 4301 packets received, 4252 bps, 53.15%, Err 0 (0.0e+00)
-2074.991 .... 4309 packets received, 4256 bps, 53.20%, Err 0 (0.0e+00)
-2077.111 .... 4317 packets received, 4259 bps, 53.24%, Err 0 (0.0e+00)
-2079.196 .... 4325 packets received, 4263 bps, 53.28%, Err 0 (0.0e+00)
-2081.319 .... 4333 packets received, 4266 bps, 53.33%, Err 0 (0.0e+00)
-2083.423 .... 4341 packets received, 4270 bps, 53.37%, Err 0 (0.0e+00)
-2085.557 .... 4349 packets received, 4273 bps, 53.42%, Err 0 (0.0e+00)
-2087.664 .... 4357 packets received, 4277 bps, 53.46%, Err 0 (0.0e+00)
-2089.750 .... 4365 packets received, 4280 bps, 53.51%, Err 0 (0.0e+00)
-2091.865 .... 4373 packets received, 4284 bps, 53.55%, Err 0 (0.0e+00)
-2093.983 .... 4381 packets received, 4287 bps, 53.59%, Err 0 (0.0e+00)
-2096.104 .... 4389 packets received, 4291 bps, 53.64%, Err 0 (0.0e+00)
-2098.220 .... 4397 packets received, 4294 bps, 53.68%, Err 0 (0.0e+00)
-2100.321 .... 4405 packets received, 4298 bps, 53.72%, Err 0 (0.0e+00)
-2104.384 .... 4406 packets received, 4291 bps, 53.63%, Err 0 (0.0e+00)
-2108.473 .... 4407 packets received, 4283 bps, 53.54%, Err 0 (0.0e+00)
-2112.532 .... 4408 packets received, 4276 bps, 53.45%, Err 0 (0.0e+00)
-2116.618 .... 4409 packets received, 4269 bps, 53.36%, Err 0 (0.0e+00)
-2120.715 .... 4410 packets received, 4261 bps, 53.27%, Err 0 (0.0e+00)
-2124.818 .... 4411 packets received, 4254 bps, 53.18%, Err 0 (0.0e+00)
-2128.971 .... 4412 packets received, 4247 bps, 53.08%, Err 0 (0.0e+00)
-2133.060 .... 4413 packets received, 4240 bps, 53.00%, Err 0 (0.0e+00)
-2137.154 .... 4414 packets received, 4232 bps, 52.91%, Err 0 (0.0e+00)
-2141.317 .... 4415 packets received, 4225 bps, 52.81%, Err 0 (0.0e+00)
-2145.364 .... 4416 packets received, 4218 bps, 52.73%, Err 0 (0.0e+00)
-2149.475 .... 4417 packets received, 4211 bps, 52.64%, Err 0 (0.0e+00)
-2153.559 .... 4418 packets received, 4204 bps, 52.55%, Err 0 (0.0e+00)
-2157.665 .... 4419 packets received, 4197 bps, 52.46%, Err 0 (0.0e+00)
-2161.863 .... 4420 packets received, 4190 bps, 52.37%, Err 0 (0.0e+00)
-2165.960 .... 4421 packets received, 4183 bps, 52.28%, Err 0 (0.0e+00)
-2170.236 .... 4422 packets received, 4175 bps, 52.19%, Err 0 (0.0e+00)
-2174.266 .... 4423 packets received, 4169 bps, 52.11%, Err 0 (0.0e+00)
-2178.375 .... 4424 packets received, 4162 bps, 52.02%, Err 0 (0.0e+00)
-2182.418 .... 4425 packets received, 4155 bps, 51.94%, Err 0 (0.0e+00)
-2186.593 .... 4426 packets received, 4148 bps, 51.85%, Err 0 (0.0e+00)
-2190.682 .... 4427 packets received, 4141 bps, 51.76%, Err 0 (0.0e+00)
-2194.751 .... 4428 packets received, 4134 bps, 51.68%, Err 0 (0.0e+00)
-2198.839 .... 4429 packets received, 4128 bps, 51.60%, Err 0 (0.0e+00)
-2201.063 .... 4432 packets received, 4126 bps, 51.58%, Err 0 (0.0e+00)
-2203.156 .... 4440 packets received, 4130 bps, 51.62%, Err 0 (0.0e+00)
-2205.288 .... 4448 packets received, 4133 bps, 51.66%, Err 0 (0.0e+00)
-2207.390 .... 4456 packets received, 4137 bps, 51.71%, Err 0 (0.0e+00)
-2209.508 .... 4464 packets received, 4140 bps, 51.75%, Err 0 (0.0e+00)
-2211.625 .... 4472 packets received, 4144 bps, 51.79%, Err 0 (0.0e+00)
-2213.714 .... 4480 packets received, 4147 bps, 51.84%, Err 0 (0.0e+00)
-2215.858 .... 4488 packets received, 4150 bps, 51.88%, Err 0 (0.0e+00)
-2217.977 .... 4496 packets received, 4154 bps, 51.92%, Err 0 (0.0e+00)
-2220.077 .... 4504 packets received, 4157 bps, 51.97%, Err 0 (0.0e+00)
-2222.175 .... 4512 packets received, 4161 bps, 52.01%, Err 0 (0.0e+00)
-2224.279 .... 4520 packets received, 4164 bps, 52.05%, Err 0 (0.0e+00)
-2226.394 .... 4528 packets received, 4168 bps, 52.10%, Err 0 (0.0e+00)
-2228.523 .... 4536 packets received, 4171 bps, 52.14%, Err 0 (0.0e+00)
-2230.623 .... 4544 packets received, 4174 bps, 52.18%, Err 0 (0.0e+00)
-2232.735 .... 4552 packets received, 4178 bps, 52.22%, Err 0 (0.0e+00)
-2234.834 .... 4560 packets received, 4181 bps, 52.27%, Err 0 (0.0e+00)
-2236.964 .... 4568 packets received, 4185 bps, 52.31%, Err 0 (0.0e+00)
-2239.059 .... 4576 packets received, 4188 bps, 52.35%, Err 0 (0.0e+00)
-2241.188 .... 4584 packets received, 4191 bps, 52.39%, Err 0 (0.0e+00)
-2243.283 .... 4592 packets received, 4195 bps, 52.43%, Err 0 (0.0e+00)
-2245.418 .... 4600 packets received, 4198 bps, 52.47%, Err 0 (0.0e+00)
-2247.508 .... 4608 packets received, 4201 bps, 52.52%, Err 0 (0.0e+00)
-2249.628 .... 4616 packets received, 4205 bps, 52.56%, Err 0 (0.0e+00)
-2251.733 .... 4624 packets received, 4208 bps, 52.60%, Err 0 (0.0e+00)
-2253.871 .... 4632 packets received, 4211 bps, 52.64%, Err 0 (0.0e+00)
-2255.968 .... 4640 packets received, 4215 bps, 52.68%, Err 0 (0.0e+00)
-2258.064 .... 4648 packets received, 4218 bps, 52.73%, Err 0 (0.0e+00)
-2260.191 .... 4656 packets received, 4221 bps, 52.77%, Err 0 (0.0e+00)
-2262.292 .... 4664 packets received, 4225 bps, 52.81%, Err 0 (0.0e+00)
-2264.403 .... 4672 packets received, 4228 bps, 52.85%, Err 0 (0.0e+00)
-2266.541 .... 4680 packets received, 4231 bps, 52.89%, Err 0 (0.0e+00)
-2268.653 .... 4688 packets received, 4234 bps, 52.93%, Err 0 (0.0e+00)
-2270.754 .... 4696 packets received, 4238 bps, 52.97%, Err 0 (0.0e+00)
-2272.871 .... 4704 packets received, 4241 bps, 53.01%, Err 0 (0.0e+00)
-2274.981 .... 4712 packets received, 4244 bps, 53.05%, Err 0 (0.0e+00)
-2277.095 .... 4720 packets received, 4248 bps, 53.09%, Err 0 (0.0e+00)
-2279.209 .... 4728 packets received, 4251 bps, 53.13%, Err 0 (0.0e+00)
-2281.319 .... 4736 packets received, 4254 bps, 53.18%, Err 0 (0.0e+00)
-2283.434 .... 4744 packets received, 4257 bps, 53.22%, Err 0 (0.0e+00)
-2285.545 .... 4752 packets received, 4261 bps, 53.26%, Err 0 (0.0e+00)
-2287.659 .... 4760 packets received, 4264 bps, 53.30%, Err 0 (0.0e+00)
-2289.775 .... 4768 packets received, 4267 bps, 53.34%, Err 0 (0.0e+00)
-2291.880 .... 4776 packets received, 4270 bps, 53.38%, Err 0 (0.0e+00)
-2293.997 .... 4784 packets received, 4273 bps, 53.42%, Err 0 (0.0e+00)
-2296.092 .... 4792 packets received, 4277 bps, 53.46%, Err 0 (0.0e+00)
-2298.221 .... 4800 packets received, 4280 bps, 53.50%, Err 0 (0.0e+00)
-2300.309 .... 4808 packets received, 4283 bps, 53.54%, Err 0 (0.0e+00)
-2304.397 .... 4809 packets received, 4276 bps, 53.45%, Err 0 (0.0e+00)
-2308.526 .... 4810 packets received, 4270 bps, 53.37%, Err 0 (0.0e+00)
-2312.610 .... 4811 packets received, 4263 bps, 53.29%, Err 0 (0.0e+00)
-2316.681 .... 4812 packets received, 4256 bps, 53.20%, Err 0 (0.0e+00)
-2320.810 .... 4813 packets received, 4250 bps, 53.12%, Err 0 (0.0e+00)
-2325.014 .... 4814 packets received, 4243 bps, 53.04%, Err 0 (0.0e+00)
-2329.173 .... 4815 packets received, 4236 bps, 52.95%, Err 0 (0.0e+00)
-2333.288 .... 4816 packets received, 4230 bps, 52.87%, Err 0 (0.0e+00)
-2337.426 .... 4817 packets received, 4223 bps, 52.79%, Err 0 (0.0e+00)
-2341.490 .... 4818 packets received, 4216 bps, 52.71%, Err 0 (0.0e+00)
-2345.623 .... 4819 packets received, 4210 bps, 52.62%, Err 0 (0.0e+00)
-2349.768 .... 4820 packets received, 4203 bps, 52.54%, Err 0 (0.0e+00)
-2353.844 .... 4821 packets received, 4197 bps, 52.46%, Err 0 (0.0e+00)
-2357.881 .... 4822 packets received, 4191 bps, 52.38%, Err 0 (0.0e+00)
-2361.985 .... 4823 packets received, 4184 bps, 52.30%, Err 0 (0.0e+00)
-2366.049 .... 4824 packets received, 4178 bps, 52.22%, Err 0 (0.0e+00)
-2370.227 .... 4825 packets received, 4171 bps, 52.14%, Err 0 (0.0e+00)
-2374.311 .... 4826 packets received, 4165 bps, 52.06%, Err 0 (0.0e+00)
-2378.396 .... 4827 packets received, 4159 bps, 51.98%, Err 0 (0.0e+00)
-2382.457 .... 4828 packets received, 4152 bps, 51.91%, Err 0 (0.0e+00)
-2386.579 .... 4829 packets received, 4146 bps, 51.83%, Err 0 (0.0e+00)
-2390.680 .... 4830 packets received, 4140 bps, 51.75%, Err 0 (0.0e+00)
-2394.764 .... 4831 packets received, 4134 bps, 51.67%, Err 0 (0.0e+00)
-2398.770 .... 4832 packets received, 4128 bps, 51.60%, Err 0 (0.0e+00)
-2400.805 .... 4834 packets received, 4126 bps, 51.57%, Err 0 (0.0e+00)
-2402.923 .... 4842 packets received, 4129 bps, 51.61%, Err 0 (0.0e+00)
-2405.030 .... 4850 packets received, 4132 bps,
+000.000 Log file "au.log", TCP port 59145, debug mask 0x07
+000.000 Station A is waiting for station B on TCP port 59145 ... Done.
+000.319 New epoch: Sat May 20 17:34:03 2023
+000.319 =================================================================
+000.319 
+000.319 Designed by Li Ruobin, build: May 20 2023  02:25:18
+000.319 Send DATA SEQ:0 ACK:127 ID:10000
+000.319 Start 0 timer
+000.319 Change Sender's window,lower edge:0,upper edge:0
+000.563 Send DATA SEQ:1 ACK:127 ID:10001
+000.563 Start 1 timer
+000.563 Change Sender's window,lower edge:0,upper edge:1
+000.827 Send DATA SEQ:2 ACK:127 ID:10002
+000.827 Start 2 timer
+000.827 Change Sender's window,lower edge:0,upper edge:2
+001.102 Send DATA SEQ:3 ACK:127 ID:10003
+001.103 Start 3 timer
+001.103 Change Sender's window,lower edge:0,upper edge:3
+001.351 Send DATA SEQ:4 ACK:127 ID:10004
+001.351 Start 4 timer
+001.351 Change Sender's window,lower edge:0,upper edge:4
+001.567 Recv DATA SEQ:0 ACK:0 ID:20000
+001.567 in_buf[0] full of date ID:20000
+001.567 Put Packet in_buf[0]
+001.567 Change Receiver's window,lower edge:1,upper edge:64
+001.567 Stop 0 timer
+001.567 Change Sender's window,lower edge:1,upper edge:4
+001.615 Send DATA SEQ:5 ACK:0 ID:10005
+001.615 Start 5 timer
+001.615 Change Sender's window,lower edge:1,upper edge:5
+001.845 Recv DATA SEQ:1 ACK:1 ID:20001
+001.845 in_buf[1] full of date ID:20001
+001.845 Put Packet in_buf[1]
+001.845 Change Receiver's window,lower edge:2,upper edge:65
+001.845 Stop 1 timer
+001.845 Change Sender's window,lower edge:2,upper edge:5
+001.894 Send DATA SEQ:6 ACK:1 ID:10006
+001.895 Start 6 timer
+001.895 Change Sender's window,lower edge:2,upper edge:6
+002.109 Recv DATA SEQ:2 ACK:2 ID:20002
+002.109 in_buf[2] full of date ID:20002
+002.109 Put Packet in_buf[2]
+002.109 Change Receiver's window,lower edge:3,upper edge:66
+002.109 Stop 2 timer
+002.109 Change Sender's window,lower edge:3,upper edge:6
+002.159 Send DATA SEQ:7 ACK:2 ID:10007
+002.159 Start 7 timer
+002.159 Change Sender's window,lower edge:3,upper edge:7
+002.356 Recv DATA SEQ:3 ACK:3 ID:20003
+002.356 in_buf[3] full of date ID:20003
+002.356 Put Packet in_buf[3]
+002.356 Change Receiver's window,lower edge:4,upper edge:67
+002.356 Stop 3 timer
+002.356 Change Sender's window,lower edge:4,upper edge:7
+002.422 Send DATA SEQ:8 ACK:3 ID:10008
+002.422 Start 8 timer
+002.422 Change Sender's window,lower edge:4,upper edge:8
+002.620 Recv DATA SEQ:4 ACK:4 ID:20004
+002.620 in_buf[4] full of date ID:20004
+002.620 Put Packet in_buf[4]
+002.620 Change Receiver's window,lower edge:5,upper edge:68
+002.620 Stop 4 timer
+002.620 Change Sender's window,lower edge:5,upper edge:8
+002.686 Send DATA SEQ:9 ACK:4 ID:10009
+002.686 Start 9 timer
+002.686 Change Sender's window,lower edge:5,upper edge:9
+002.885 Recv DATA SEQ:5 ACK:5 ID:20005
+002.885 in_buf[5] full of date ID:20005
+002.885 Put Packet in_buf[5]
+002.885 Change Receiver's window,lower edge:6,upper edge:69
+002.885 Stop 5 timer
+002.885 Change Sender's window,lower edge:6,upper edge:9
+002.950 Send DATA SEQ:10 ACK:5 ID:10010
+002.950 Start 10 timer
+002.950 Change Sender's window,lower edge:6,upper edge:10
+003.160 Recv DATA SEQ:6 ACK:6 ID:20006
+003.160 in_buf[6] full of date ID:20006
+003.160 Put Packet in_buf[6]
+003.160 Change Receiver's window,lower edge:7,upper edge:70
+003.160 Stop 6 timer
+003.160 Change Sender's window,lower edge:7,upper edge:10
+003.210 Send DATA SEQ:11 ACK:6 ID:10011
+003.210 Start 11 timer
+003.210 Change Sender's window,lower edge:7,upper edge:11
+003.424 Recv DATA SEQ:7 ACK:7 ID:20007
+003.424 in_buf[7] full of date ID:20007
+003.424 Put Packet in_buf[7]
+003.424 .... 8 packets received, 7717 bps, 96.47%, Err 0 (0.0e+00)
+003.424 Change Receiver's window,lower edge:8,upper edge:71
+003.424 Stop 7 timer
+003.424 Change Sender's window,lower edge:8,upper edge:11
+003.474 Send DATA SEQ:12 ACK:7 ID:10012
+003.474 Start 12 timer
+003.474 Change Sender's window,lower edge:8,upper edge:12
+003.688 Recv DATA SEQ:8 ACK:8 ID:20008
+003.688 in_buf[8] full of date ID:20008
+003.688 Put Packet in_buf[8]
+003.688 Change Receiver's window,lower edge:9,upper edge:72
+003.688 Stop 8 timer
+003.688 Change Sender's window,lower edge:9,upper edge:12
+003.738 Send DATA SEQ:13 ACK:8 ID:10013
+003.738 Start 13 timer
+003.738 Change Sender's window,lower edge:9,upper edge:13
+003.954 Recv DATA SEQ:9 ACK:9 ID:20009
+003.954 in_buf[9] full of date ID:20009
+003.954 Put Packet in_buf[9]
+003.954 Change Receiver's window,lower edge:10,upper edge:73
+003.954 Stop 9 timer
+003.954 Change Sender's window,lower edge:10,upper edge:13
+004.004 Send DATA SEQ:14 ACK:9 ID:10014
+004.004 Start 14 timer
+004.004 Change Sender's window,lower edge:10,upper edge:14
+004.221 Recv DATA SEQ:10 ACK:10 ID:20010
+004.221 in_buf[10] full of date ID:20010
+004.222 Put Packet in_buf[10]
+004.222 Change Receiver's window,lower edge:11,upper edge:74
+004.222 Stop 10 timer
+004.222 Change Sender's window,lower edge:11,upper edge:14
+004.271 Send DATA SEQ:15 ACK:10 ID:10015
+004.271 Start 15 timer
+004.271 Change Sender's window,lower edge:11,upper edge:15
+004.471 Recv DATA SEQ:11 ACK:11 ID:20011
+004.471 in_buf[11] full of date ID:20011
+004.471 Put Packet in_buf[11]
+004.471 Change Receiver's window,lower edge:12,upper edge:75
+004.471 Stop 11 timer
+004.471 Change Sender's window,lower edge:12,upper edge:15
+004.520 Send DATA SEQ:16 ACK:11 ID:10016
+004.520 Start 16 timer
+004.520 Change Sender's window,lower edge:12,upper edge:16
+004.737 Recv DATA SEQ:12 ACK:12 ID:20012
+004.737 in_buf[12] full of date ID:20012
+004.737 Put Packet in_buf[12]
+004.737 Change Receiver's window,lower edge:13,upper edge:76
+004.737 Stop 12 timer
+004.737 Change Sender's window,lower edge:13,upper edge:16
+004.786 Send DATA SEQ:17 ACK:12 ID:10017
+004.786 Start 17 timer
+004.786 Change Sender's window,lower edge:13,upper edge:17
+005.001 Recv DATA SEQ:13 ACK:13 ID:20013
+005.001 in_buf[13] full of date ID:20013
+005.001 Put Packet in_buf[13]
+005.001 Change Receiver's window,lower edge:14,upper edge:77
+005.001 Stop 13 timer
+005.001 Change Sender's window,lower edge:14,upper edge:17
+005.051 Send DATA SEQ:18 ACK:13 ID:10018
+005.051 Start 18 timer
+005.051 Change Sender's window,lower edge:14,upper edge:18
+005.275 Recv DATA SEQ:14 ACK:14 ID:20014
+005.275 in_buf[14] full of date ID:20014
+005.275 Put Packet in_buf[14]
+005.275 Change Receiver's window,lower edge:15,upper edge:78
+005.275 Stop 14 timer
+005.275 Change Sender's window,lower edge:15,upper edge:18
+005.325 Send DATA SEQ:19 ACK:14 ID:10019
+005.325 Start 19 timer
+005.325 Change Sender's window,lower edge:15,upper edge:19
+005.540 Recv DATA SEQ:15 ACK:15 ID:20015
+005.540 in_buf[15] full of date ID:20015
+005.540 Put Packet in_buf[15]
+005.540 .... 16 packets received, 7730 bps, 96.63%, Err 0 (0.0e+00)
+005.540 Change Receiver's window,lower edge:16,upper edge:79
+005.540 Stop 15 timer
+005.540 Change Sender's window,lower edge:16,upper edge:19
+005.590 Send DATA SEQ:20 ACK:15 ID:10020
+005.590 Start 20 timer
+005.590 Change Sender's window,lower edge:16,upper edge:20
+005.788 Recv DATA SEQ:16 ACK:16 ID:20016
+005.788 in_buf[16] full of date ID:20016
+005.788 Put Packet in_buf[16]
+005.788 Change Receiver's window,lower edge:17,upper edge:80
+005.788 Stop 16 timer
+005.788 Change Sender's window,lower edge:17,upper edge:20
+005.854 Send DATA SEQ:21 ACK:16 ID:10021
+005.854 Start 21 timer
+005.854 Change Sender's window,lower edge:17,upper edge:21
+006.051 Recv DATA SEQ:17 ACK:17 ID:20017
+006.051 in_buf[17] full of date ID:20017
+006.051 Put Packet in_buf[17]
+006.051 Change Receiver's window,lower edge:18,upper edge:81
+006.051 Stop 17 timer
+006.051 Change Sender's window,lower edge:18,upper edge:21
+006.116 Send DATA SEQ:22 ACK:17 ID:10022
+006.116 Start 22 timer
+006.116 Change Sender's window,lower edge:18,upper edge:22
+006.314 Recv DATA SEQ:18 ACK:18 ID:20018
+006.314 in_buf[18] full of date ID:20018
+006.314 Put Packet in_buf[18]
+006.314 Change Receiver's window,lower edge:19,upper edge:82
+006.314 Stop 18 timer
+006.314 Change Sender's window,lower edge:19,upper edge:22
+006.380 Send DATA SEQ:23 ACK:18 ID:10023
+006.380 Start 23 timer
+006.380 Change Sender's window,lower edge:19,upper edge:23
+006.595 Recv DATA SEQ:19 ACK:19 ID:20019
+006.595 in_buf[19] full of date ID:20019
+006.595 Put Packet in_buf[19]
+006.595 Change Receiver's window,lower edge:20,upper edge:83
+006.595 Stop 19 timer
+006.595 Change Sender's window,lower edge:20,upper edge:23
+006.645 Send DATA SEQ:24 ACK:19 ID:10024
+006.646 Start 24 timer
+006.646 Change Sender's window,lower edge:20,upper edge:24
+006.843 Recv DATA SEQ:20 ACK:20 ID:20020
+006.843 in_buf[20] full of date ID:20020
+006.843 Put Packet in_buf[20]
+006.843 Change Receiver's window,lower edge:21,upper edge:84
+006.843 Stop 20 timer
+006.843 Change Sender's window,lower edge:21,upper edge:24
+006.909 Send DATA SEQ:25 ACK:20 ID:10025
+006.909 Start 25 timer
+006.909 Change Sender's window,lower edge:21,upper edge:25
+007.106 Recv DATA SEQ:21 ACK:21 ID:20021
+007.107 in_buf[21] full of date ID:20021
+007.107 Put Packet in_buf[21]
+007.107 Change Receiver's window,lower edge:22,upper edge:85
+007.107 Stop 21 timer
+007.107 Change Sender's window,lower edge:22,upper edge:25
+007.171 Send DATA SEQ:26 ACK:21 ID:10026
+007.171 Start 26 timer
+007.171 Change Sender's window,lower edge:22,upper edge:26
+007.380 Recv DATA SEQ:22 ACK:22 ID:20022
+007.380 in_buf[22] full of date ID:20022
+007.380 Put Packet in_buf[22]
+007.380 Change Receiver's window,lower edge:23,upper edge:86
+007.380 Stop 22 timer
+007.380 Change Sender's window,lower edge:23,upper edge:26
+007.430 Send DATA SEQ:27 ACK:22 ID:10027
+007.430 Start 27 timer
+007.430 Change Sender's window,lower edge:23,upper edge:27
+007.660 Recv DATA SEQ:23 ACK:23 ID:20023
+007.660 in_buf[23] full of date ID:20023
+007.660 Put Packet in_buf[23]
+007.660 .... 24 packets received, 7730 bps, 96.62%, Err 0 (0.0e+00)
+007.660 Change Receiver's window,lower edge:24,upper edge:87
+007.660 Stop 23 timer
+007.660 Change Sender's window,lower edge:24,upper edge:27
+007.693 Send DATA SEQ:28 ACK:23 ID:10028
+007.693 Start 28 timer
+007.693 Change Sender's window,lower edge:24,upper edge:28
+007.908 Recv DATA SEQ:24 ACK:24 ID:20024
+007.908 in_buf[24] full of date ID:20024
+007.908 Put Packet in_buf[24]
+007.908 Change Receiver's window,lower edge:25,upper edge:88
+007.908 Stop 24 timer
+007.908 Change Sender's window,lower edge:25,upper edge:28
+007.957 Send DATA SEQ:29 ACK:24 ID:10029
+007.957 Start 29 timer
+007.957 Change Sender's window,lower edge:25,upper edge:29
+008.171 Recv DATA SEQ:25 ACK:25 ID:20025
+008.171 in_buf[25] full of date ID:20025
+008.171 Put Packet in_buf[25]
+008.171 Change Receiver's window,lower edge:26,upper edge:89
+008.171 Stop 25 timer
+008.171 Change Sender's window,lower edge:26,upper edge:29
+008.221 Send DATA SEQ:30 ACK:25 ID:10030
+008.221 Start 30 timer
+008.221 Change Sender's window,lower edge:26,upper edge:30
+008.436 Recv DATA SEQ:26 ACK:26 ID:20026
+008.436 in_buf[26] full of date ID:20026
+008.436 Put Packet in_buf[26]
+008.436 Change Receiver's window,lower edge:27,upper edge:90
+008.436 Stop 26 timer
+008.436 Change Sender's window,lower edge:27,upper edge:30
+008.486 Send DATA SEQ:31 ACK:26 ID:10031
+008.486 Start 31 timer
+008.486 Change Sender's window,lower edge:27,upper edge:31
+008.700 Recv DATA SEQ:27 ACK:27 ID:20027
+008.700 in_buf[27] full of date ID:20027
+008.700 Put Packet in_buf[27]
+008.700 Change Receiver's window,lower edge:28,upper edge:91
+008.700 Stop 27 timer
+008.700 Change Sender's window,lower edge:28,upper edge:31
+008.750 Send DATA SEQ:32 ACK:27 ID:10032
+008.750 Start 32 timer
+008.750 Change Sender's window,lower edge:28,upper edge:32
+008.964 Recv DATA SEQ:28 ACK:28 ID:20028
+008.965 in_buf[28] full of date ID:20028
+008.965 Put Packet in_buf[28]
+008.965 Change Receiver's window,lower edge:29,upper edge:92
+008.965 Stop 28 timer
+008.965 Change Sender's window,lower edge:29,upper edge:32
+009.014 Send DATA SEQ:33 ACK:28 ID:10033
+009.014 Start 33 timer
+009.014 Change Sender's window,lower edge:29,upper edge:33
+009.226 Recv DATA SEQ:29 ACK:29 ID:20029
+009.227 in_buf[29] full of date ID:20029
+009.227 Put Packet in_buf[29]
+009.227 Change Receiver's window,lower edge:30,upper edge:93
+009.227 Stop 29 timer
+009.227 Change Sender's window,lower edge:30,upper edge:33
+009.276 Send DATA SEQ:34 ACK:29 ID:10034
+009.276 Start 34 timer
+009.276 Change Sender's window,lower edge:30,upper edge:34
+009.491 Recv DATA SEQ:30 ACK:30 ID:20030
+009.491 in_buf[30] full of date ID:20030
+009.491 Put Packet in_buf[30]
+009.491 Change Receiver's window,lower edge:31,upper edge:94
+009.491 Stop 30 timer
+009.491 Change Sender's window,lower edge:31,upper edge:34
+009.540 Send DATA SEQ:35 ACK:30 ID:10035
+009.540 Start 35 timer
+009.540 Change Sender's window,lower edge:31,upper edge:35
+009.754 Recv DATA SEQ:31 ACK:31 ID:20031
+009.754 in_buf[31] full of date ID:20031
+009.754 Put Packet in_buf[31]
+009.754 .... 32 packets received, 7753 bps, 96.91%, Err 0 (0.0e+00)
+009.754 Change Receiver's window,lower edge:32,upper edge:95
+009.754 Stop 31 timer
+009.754 Change Sender's window,lower edge:32,upper edge:35
+009.804 Send DATA SEQ:36 ACK:31 ID:10036
+009.804 Start 36 timer
+009.804 Change Sender's window,lower edge:32,upper edge:36
+010.018 Recv DATA SEQ:32 ACK:32 ID:20032
+010.019 in_buf[32] full of date ID:20032
+010.019 Put Packet in_buf[32]
+010.019 Change Receiver's window,lower edge:33,upper edge:96
+010.019 Stop 32 timer
+010.019 Change Sender's window,lower edge:33,upper edge:36
+010.067 Send DATA SEQ:37 ACK:32 ID:10037
+010.067 Start 37 timer
+010.067 Change Sender's window,lower edge:33,upper edge:37
+010.279 Recv DATA SEQ:33 ACK:33 ID:20033
+010.280 in_buf[33] full of date ID:20033
+010.280 Put Packet in_buf[33]
+010.280 Change Receiver's window,lower edge:34,upper edge:97
+010.280 Stop 33 timer
+010.280 Change Sender's window,lower edge:34,upper edge:37
+010.329 Send DATA SEQ:38 ACK:33 ID:10038
+010.329 Start 38 timer
+010.329 Change Sender's window,lower edge:34,upper edge:38
+010.545 Recv DATA SEQ:34 ACK:34 ID:20034
+010.545 in_buf[34] full of date ID:20034
+010.545 Put Packet in_buf[34]
+010.545 Change Receiver's window,lower edge:35,upper edge:98
+010.545 Stop 34 timer
+010.545 Change Sender's window,lower edge:35,upper edge:38
+010.595 Send DATA SEQ:39 ACK:34 ID:10039
+010.595 Start 39 timer
+010.595 Change Sender's window,lower edge:35,upper edge:39
+010.809 Recv DATA SEQ:35 ACK:35 ID:20035
+010.809 in_buf[35] full of date ID:20035
+010.809 Put Packet in_buf[35]
+010.809 Change Receiver's window,lower edge:36,upper edge:99
+010.809 Stop 35 timer
+010.809 Change Sender's window,lower edge:36,upper edge:39
+010.859 Send DATA SEQ:40 ACK:35 ID:10040
+010.859 Start 40 timer
+010.859 Change Sender's window,lower edge:36,upper edge:40
+011.073 Recv DATA SEQ:36 ACK:36 ID:20036
+011.073 in_buf[36] full of date ID:20036
+011.073 Put Packet in_buf[36]
+011.073 Change Receiver's window,lower edge:37,upper edge:100
+011.073 Stop 36 timer
+011.073 Change Sender's window,lower edge:37,upper edge:40
+011.123 Send DATA SEQ:41 ACK:36 ID:10041
+011.123 Start 41 timer
+011.123 Change Sender's window,lower edge:37,upper edge:41
+011.339 Recv DATA SEQ:37 ACK:37 ID:20037
+011.339 in_buf[37] full of date ID:20037
+011.339 Put Packet in_buf[37]
+011.339 Change Receiver's window,lower edge:38,upper edge:101
+011.339 Stop 37 timer
+011.339 Change Sender's window,lower edge:38,upper edge:41
+011.388 Send DATA SEQ:42 ACK:37 ID:10042
+011.388 Start 42 timer
+011.388 Change Sender's window,lower edge:38,upper edge:42
+011.611 Recv DATA SEQ:38 ACK:38 ID:20038
+011.611 in_buf[38] full of date ID:20038
+011.611 Put Packet in_buf[38]
+011.611 Change Receiver's window,lower edge:39,upper edge:102
+011.611 Stop 38 timer
+011.611 Change Sender's window,lower edge:39,upper edge:42
+011.659 Send DATA SEQ:43 ACK:38 ID:10043
+011.659 Start 43 timer
+011.659 Change Sender's window,lower edge:39,upper edge:43
+011.857 Recv DATA SEQ:39 ACK:39 ID:20039
+011.857 in_buf[39] full of date ID:20039
+011.857 Put Packet in_buf[39]
+011.858 .... 40 packets received, 7761 bps, 97.01%, Err 0 (0.0e+00)
+011.858 Change Receiver's window,lower edge:40,upper edge:103
+011.858 Stop 39 timer
+011.858 Change Sender's window,lower edge:40,upper edge:43
+011.923 Send DATA SEQ:44 ACK:39 ID:10044
+011.924 Start 44 timer
+011.924 Change Sender's window,lower edge:40,upper edge:44
+012.136 Recv DATA SEQ:40 ACK:40 ID:20040
+012.136 in_buf[40] full of date ID:20040
+012.136 Put Packet in_buf[40]
+012.136 Change Receiver's window,lower edge:41,upper edge:104
+012.136 Stop 40 timer
+012.136 Change Sender's window,lower edge:41,upper edge:44
+012.186 Send DATA SEQ:45 ACK:40 ID:10045
+012.186 Start 45 timer
+012.186 Change Sender's window,lower edge:41,upper edge:45
+012.400 Recv DATA SEQ:41 ACK:41 ID:20041
+012.400 in_buf[41] full of date ID:20041
+012.400 Put Packet in_buf[41]
+012.400 Change Receiver's window,lower edge:42,upper edge:105
+012.400 Stop 41 timer
+012.400 Change Sender's window,lower edge:42,upper edge:45
+012.450 Send DATA SEQ:46 ACK:41 ID:10046
+012.450 Start 46 timer
+012.450 Change Sender's window,lower edge:42,upper edge:46
+012.664 Recv DATA SEQ:42 ACK:42 ID:20042
+012.664 in_buf[42] full of date ID:20042
+012.664 Put Packet in_buf[42]
+012.664 Change Receiver's window,lower edge:43,upper edge:106
+012.664 Stop 42 timer
+012.664 Change Sender's window,lower edge:43,upper edge:46
+012.713 Send DATA SEQ:47 ACK:42 ID:10047
+012.713 Start 47 timer
+012.713 Change Sender's window,lower edge:43,upper edge:47
+012.928 Recv DATA SEQ:43 ACK:43 ID:20043
+012.928 in_buf[43] full of date ID:20043
+012.928 Put Packet in_buf[43]
+012.928 Change Receiver's window,lower edge:44,upper edge:107
+012.928 Stop 43 timer
+012.928 Change Sender's window,lower edge:44,upper edge:47
+012.976 Send DATA SEQ:48 ACK:43 ID:10048
+012.976 Start 48 timer
+012.976 Change Sender's window,lower edge:44,upper edge:48
+013.190 Recv DATA SEQ:44 ACK:44 ID:20044
+013.190 in_buf[44] full of date ID:20044
+013.190 Put Packet in_buf[44]
+013.190 Change Receiver's window,lower edge:45,upper edge:108
+013.190 Stop 44 timer
+013.190 Change Sender's window,lower edge:45,upper edge:48
+013.240 Send DATA SEQ:49 ACK:44 ID:10049
+013.240 Start 49 timer
+013.240 Change Sender's window,lower edge:45,upper edge:49
+013.454 Recv DATA SEQ:45 ACK:45 ID:20045
+013.454 in_buf[45] full of date ID:20045
+013.454 Put Packet in_buf[45]
+013.454 Change Receiver's window,lower edge:46,upper edge:109
+013.454 Stop 45 timer
+013.454 Change Sender's window,lower edge:46,upper edge:49
+013.504 Send DATA SEQ:50 ACK:45 ID:10050
+013.504 Start 50 timer
+013.504 Change Sender's window,lower edge:46,upper edge:50
+013.728 Recv DATA SEQ:46 ACK:46 ID:20046
+013.728 in_buf[46] full of date ID:20046
+013.728 Put Packet in_buf[46]
+013.728 Change Receiver's window,lower edge:47,upper edge:110
+013.728 Stop 46 timer
+013.728 Change Sender's window,lower edge:47,upper edge:50
+013.761 Send DATA SEQ:51 ACK:46 ID:10051
+013.761 Start 51 timer
+013.761 Change Sender's window,lower edge:47,upper edge:51
+014.007 Recv DATA SEQ:47 ACK:47 ID:20047
+014.007 in_buf[47] full of date ID:20047
+014.007 Put Packet in_buf[47]
+014.007 .... 48 packets received, 7737 bps, 96.71%, Err 0 (0.0e+00)
+014.007 Change Receiver's window,lower edge:48,upper edge:111
+014.007 Stop 47 timer
+014.007 Change Sender's window,lower edge:48,upper edge:51
+014.023 Send DATA SEQ:52 ACK:47 ID:10052
+014.024 Start 52 timer
+014.024 Change Sender's window,lower edge:48,upper edge:52
+014.255 Recv DATA SEQ:48 ACK:48 ID:20048
+014.255 in_buf[48] full of date ID:20048
+014.255 Put Packet in_buf[48]
+014.255 Change Receiver's window,lower edge:49,upper edge:112
+014.255 Stop 48 timer
+014.255 Change Sender's window,lower edge:49,upper edge:52
+014.288 Send DATA SEQ:53 ACK:48 ID:10053
+014.288 Start 53 timer
+014.288 Change Sender's window,lower edge:49,upper edge:53
+014.519 Recv DATA SEQ:49 ACK:49 ID:20049
+014.519 in_buf[49] full of date ID:20049
+014.519 Put Packet in_buf[49]
+014.519 Change Receiver's window,lower edge:50,upper edge:113
+014.520 Stop 49 timer
+014.520 Change Sender's window,lower edge:50,upper edge:53
+014.553 Send DATA SEQ:54 ACK:49 ID:10054
+014.553 Start 54 timer
+014.553 Change Sender's window,lower edge:50,upper edge:54
+014.780 Recv DATA SEQ:50 ACK:50 ID:20050
+014.780 in_buf[50] full of date ID:20050
+014.781 Put Packet in_buf[50]
+014.781 Change Receiver's window,lower edge:51,upper edge:114
+014.781 Stop 50 timer
+014.781 Change Sender's window,lower edge:51,upper edge:54
+014.830 Send DATA SEQ:55 ACK:50 ID:10055
+014.830 Start 55 timer
+014.830 Change Sender's window,lower edge:51,upper edge:55
+015.043 Recv DATA SEQ:51 ACK:51 ID:20051
+015.043 in_buf[51] full of date ID:20051
+015.043 Put Packet in_buf[51]
+015.043 Change Receiver's window,lower edge:52,upper edge:115
+015.043 Stop 51 timer
+015.043 Change Sender's window,lower edge:52,upper edge:55
+015.093 Send DATA SEQ:56 ACK:51 ID:10056
+015.093 Start 56 timer
+015.093 Change Sender's window,lower edge:52,upper edge:56
+015.307 Recv DATA SEQ:52 ACK:52 ID:20052
+015.307 in_buf[52] full of date ID:20052
+015.307 Put Packet in_buf[52]
+015.307 Change Receiver's window,lower edge:53,upper edge:116
+015.307 Stop 52 timer
+015.307 Change Sender's window,lower edge:53,upper edge:56
+015.357 Send DATA SEQ:57 ACK:52 ID:10057
+015.357 Start 57 timer
+015.357 Change Sender's window,lower edge:53,upper edge:57
+015.571 Recv DATA SEQ:53 ACK:53 ID:20053
+015.571 in_buf[53] full of date ID:20053
+015.571 Put Packet in_buf[53]
+015.571 Change Receiver's window,lower edge:54,upper edge:117
+015.571 Stop 53 timer
+015.571 Change Sender's window,lower edge:54,upper edge:57
+015.620 Send DATA SEQ:58 ACK:53 ID:10058
+015.620 Start 58 timer
+015.620 Change Sender's window,lower edge:54,upper edge:58
+015.832 Recv DATA SEQ:54 ACK:54 ID:20054
+015.832 in_buf[54] full of date ID:20054
+015.832 Put Packet in_buf[54]
+015.832 Change Receiver's window,lower edge:55,upper edge:118
+015.832 Stop 54 timer
+015.832 Change Sender's window,lower edge:55,upper edge:58
+015.881 Send DATA SEQ:59 ACK:54 ID:10059
+015.881 Start 59 timer
+015.881 Change Sender's window,lower edge:55,upper edge:59
+016.078 Recv DATA SEQ:55 ACK:55 ID:20055
+016.078 in_buf[55] full of date ID:20055
+016.078 Put Packet in_buf[55]
+016.078 .... 56 packets received, 7761 bps, 97.02%, Err 0 (0.0e+00)
+016.078 Change Receiver's window,lower edge:56,upper edge:119
+016.078 Stop 55 timer
+016.078 Change Sender's window,lower edge:56,upper edge:59
+016.143 Send DATA SEQ:60 ACK:55 ID:10060
+016.143 Start 60 timer
+016.143 Change Sender's window,lower edge:56,upper edge:60
+016.339 Recv DATA SEQ:56 ACK:56 ID:20056
+016.339 in_buf[56] full of date ID:20056
+016.339 Put Packet in_buf[56]
+016.339 Change Receiver's window,lower edge:57,upper edge:120
+016.339 Stop 56 timer
+016.339 Change Sender's window,lower edge:57,upper edge:60
+016.405 Send DATA SEQ:61 ACK:56 ID:10061
+016.405 Start 61 timer
+016.405 Change Sender's window,lower edge:57,upper edge:61
+016.619 Recv DATA SEQ:57 ACK:57 ID:20057
+016.620 in_buf[57] full of date ID:20057
+016.620 Put Packet in_buf[57]
+016.620 Change Receiver's window,lower edge:58,upper edge:121
+016.620 Stop 57 timer
+016.620 Change Sender's window,lower edge:58,upper edge:61
+016.669 Send DATA SEQ:62 ACK:57 ID:10062
+016.669 Start 62 timer
+016.669 Change Sender's window,lower edge:58,upper edge:62
+016.882 Recv DATA SEQ:58 ACK:58 ID:20058
+016.882 in_buf[58] full of date ID:20058
+016.882 Put Packet in_buf[58]
+016.882 Change Receiver's window,lower edge:59,upper edge:122
+016.882 Stop 58 timer
+016.882 Change Sender's window,lower edge:59,upper edge:62
+016.931 Send DATA SEQ:63 ACK:58 ID:10063
+016.932 Start 63 timer
+016.932 Change Sender's window,lower edge:59,upper edge:63
+017.143 Recv DATA SEQ:59 ACK:59 ID:20059
+017.143 in_buf[59] full of date ID:20059
+017.143 Put Packet in_buf[59]
+017.143 Change Receiver's window,lower edge:60,upper edge:123
+017.143 Stop 59 timer
+017.143 Change Sender's window,lower edge:60,upper edge:63
+017.193 Send DATA SEQ:64 ACK:59 ID:10064
+017.193 Start 64 timer
+017.193 Change Sender's window,lower edge:60,upper edge:64
+017.422 Recv DATA SEQ:60 ACK:60 ID:20060
+017.422 in_buf[60] full of date ID:20060
+017.422 Put Packet in_buf[60]
+017.422 Change Receiver's window,lower edge:61,upper edge:124
+017.422 Stop 60 timer
+017.422 Change Sender's window,lower edge:61,upper edge:64
+017.471 Send DATA SEQ:65 ACK:60 ID:10065
+017.471 Start 65 timer
+017.471 Change Sender's window,lower edge:61,upper edge:65
+017.667 Recv DATA SEQ:61 ACK:61 ID:20061
+017.667 in_buf[61] full of date ID:20061
+017.667 Put Packet in_buf[61]
+017.667 Change Receiver's window,lower edge:62,upper edge:125
+017.667 Stop 61 timer
+017.667 Change Sender's window,lower edge:62,upper edge:65
+017.732 Send DATA SEQ:66 ACK:61 ID:10066
+017.732 Start 66 timer
+017.733 Change Sender's window,lower edge:62,upper edge:66
+017.939 Recv DATA SEQ:62 ACK:62 ID:20062
+017.939 in_buf[62] full of date ID:20062
+017.939 Put Packet in_buf[62]
+017.939 Change Receiver's window,lower edge:63,upper edge:126
+017.939 Stop 62 timer
+017.939 Change Sender's window,lower edge:63,upper edge:66
+017.988 Send DATA SEQ:67 ACK:62 ID:10067
+017.988 Start 67 timer
+017.988 Change Sender's window,lower edge:63,upper edge:67
+018.218 Recv DATA SEQ:63 ACK:63 ID:20063
+018.218 in_buf[63] full of date ID:20063
+018.218 Put Packet in_buf[63]
+018.218 .... 64 packets received, 7748 bps, 96.85%, Err 0 (0.0e+00)
+018.218 Change Receiver's window,lower edge:64,upper edge:127
+018.218 Stop 63 timer
+018.218 Change Sender's window,lower edge:64,upper edge:67
+018.251 Send DATA SEQ:68 ACK:63 ID:10068
+018.251 Start 68 timer
+018.251 Change Sender's window,lower edge:64,upper edge:68
+018.463 Recv DATA SEQ:64 ACK:64 ID:20064
+018.464 in_buf[0] full of date ID:20064
+018.464 Put Packet in_buf[0]
+018.464 Change Receiver's window,lower edge:65,upper edge:0
+018.464 Stop 64 timer
+018.464 Change Sender's window,lower edge:65,upper edge:68
+018.512 Send DATA SEQ:69 ACK:64 ID:10069
+018.512 Start 69 timer
+018.512 Change Sender's window,lower edge:65,upper edge:69
+018.726 Recv DATA SEQ:65 ACK:65 ID:20065
+018.726 in_buf[1] full of date ID:20065
+018.726 Put Packet in_buf[1]
+018.726 Change Receiver's window,lower edge:66,upper edge:1
+018.726 Stop 65 timer
+018.726 Change Sender's window,lower edge:66,upper edge:69
+018.776 Send DATA SEQ:70 ACK:65 ID:10070
+018.776 Start 70 timer
+018.776 Change Sender's window,lower edge:66,upper edge:70
+018.989 Recv DATA SEQ:66 ACK:66 ID:20066
+018.989 in_buf[2] full of date ID:20066
+018.989 Put Packet in_buf[2]
+018.989 Change Receiver's window,lower edge:67,upper edge:2
+018.989 Stop 66 timer
+018.989 Change Sender's window,lower edge:67,upper edge:70
+019.055 Send DATA SEQ:71 ACK:66 ID:10071
+019.055 Start 71 timer
+019.055 Change Sender's window,lower edge:67,upper edge:71
+019.253 Recv DATA SEQ:67 ACK:67 ID:20067
+019.253 in_buf[3] full of date ID:20067
+019.253 Put Packet in_buf[3]
+019.253 Change Receiver's window,lower edge:68,upper edge:3
+019.253 Stop 67 timer
+019.253 Change Sender's window,lower edge:68,upper edge:71
+019.317 Send DATA SEQ:72 ACK:67 ID:10072
+019.317 Start 72 timer
+019.317 Change Sender's window,lower edge:68,upper edge:72
+019.514 Recv DATA SEQ:68 ACK:68 ID:20068
+019.514 in_buf[4] full of date ID:20068
+019.514 Put Packet in_buf[4]
+019.514 Change Receiver's window,lower edge:69,upper edge:4
+019.514 Stop 68 timer
+019.514 Change Sender's window,lower edge:69,upper edge:72
+019.580 Send DATA SEQ:73 ACK:68 ID:10073
+019.580 Start 73 timer
+019.580 Change Sender's window,lower edge:69,upper edge:73
+019.777 Recv DATA SEQ:69 ACK:69 ID:20069
+019.777 in_buf[5] full of date ID:20069
+019.777 Put Packet in_buf[5]
+019.777 Change Receiver's window,lower edge:70,upper edge:5
+019.777 Stop 69 timer
+019.777 Change Sender's window,lower edge:70,upper edge:73
+019.842 Send DATA SEQ:74 ACK:69 ID:10074
+019.842 Start 74 timer
+019.842 Change Sender's window,lower edge:70,upper edge:74
+020.049 Recv DATA SEQ:70 ACK:70 ID:20070
+020.049 in_buf[6] full of date ID:20070
+020.049 Put Packet in_buf[6]
+020.049 Change Receiver's window,lower edge:71,upper edge:6
+020.049 Stop 70 timer
+020.049 Change Sender's window,lower edge:71,upper edge:74
+020.099 Send DATA SEQ:75 ACK:70 ID:10075
+020.099 Start 75 timer
+020.099 Change Sender's window,lower edge:71,upper edge:75
+020.329 Recv DATA SEQ:71 ACK:71 ID:20071
+020.329 in_buf[7] full of date ID:20071
+020.329 Put Packet in_buf[7]
+020.329 .... 72 packets received, 7749 bps, 96.87%, Err 0 (0.0e+00)
+020.329 Change Receiver's window,lower edge:72,upper edge:7
+020.330 Stop 71 timer
+020.330 Change Sender's window,lower edge:72,upper edge:75
+020.363 Send DATA SEQ:76 ACK:71 ID:10076
+020.363 Start 76 timer
+020.363 Change Sender's window,lower edge:72,upper edge:76
+020.576 Recv DATA SEQ:72 ACK:72 ID:20072
+020.577 in_buf[8] full of date ID:20072
+020.577 Put Packet in_buf[8]
+020.577 Change Receiver's window,lower edge:73,upper edge:8
+020.577 Stop 72 timer
+020.577 Change Sender's window,lower edge:73,upper edge:76
+020.626 Send DATA SEQ:77 ACK:72 ID:10077
+020.626 Start 77 timer
+020.626 Change Sender's window,lower edge:73,upper edge:77
+020.842 Recv DATA SEQ:73 ACK:73 ID:20073
+020.843 in_buf[9] full of date ID:20073
+020.843 Put Packet in_buf[9]
+020.843 Change Receiver's window,lower edge:74,upper edge:9
+020.843 Stop 73 timer
+020.843 Change Sender's window,lower edge:74,upper edge:77
+020.892 Send DATA SEQ:78 ACK:73 ID:10078
+020.892 Start 78 timer
+020.892 Change Sender's window,lower edge:74,upper edge:78
+021.106 Recv DATA SEQ:74 ACK:74 ID:20074
+021.106 in_buf[10] full of date ID:20074
+021.106 Put Packet in_buf[10]
+021.106 Change Receiver's window,lower edge:75,upper edge:10
+021.106 Stop 74 timer
+021.106 Change Sender's window,lower edge:75,upper edge:78
+021.155 Send DATA SEQ:79 ACK:74 ID:10079
+021.156 Start 79 timer
+021.156 Change Sender's window,lower edge:75,upper edge:79
+021.371 Recv DATA SEQ:75 ACK:75 ID:20075
+021.371 in_buf[11] full of date ID:20075
+021.371 Put Packet in_buf[11]
+021.371 Change Receiver's window,lower edge:76,upper edge:11
+021.371 Stop 75 timer
+021.371 Change Sender's window,lower edge:76,upper edge:79
+021.420 Send DATA SEQ:80 ACK:75 ID:10080
+021.421 Start 80 timer
+021.421 Change Sender's window,lower edge:76,upper edge:80
+021.638 Recv DATA SEQ:76 ACK:76 ID:20076
+021.638 in_buf[12] full of date ID:20076
+021.638 Put Packet in_buf[12]
+021.638 Change Receiver's window,lower edge:77,upper edge:12
+021.638 Stop 76 timer
+021.638 Change Sender's window,lower edge:77,upper edge:80
+021.687 Send DATA SEQ:81 ACK:76 ID:10081
+021.688 Start 81 timer
+021.688 Change Sender's window,lower edge:77,upper edge:81
+021.905 Recv DATA SEQ:77 ACK:77 ID:20077
+021.905 in_buf[13] full of date ID:20077
+021.905 Put Packet in_buf[13]
+021.905 Change Receiver's window,lower edge:78,upper edge:13
+021.905 Stop 77 timer
+021.905 Change Sender's window,lower edge:78,upper edge:81
+021.954 Send DATA SEQ:82 ACK:77 ID:10082
+021.954 Start 82 timer
+021.954 Change Sender's window,lower edge:78,upper edge:82
+022.181 Recv DATA SEQ:78 ACK:78 ID:20078
+022.181 in_buf[14] full of date ID:20078
+022.181 Put Packet in_buf[14]
+022.181 Change Receiver's window,lower edge:79,upper edge:14
+022.181 Stop 78 timer
+022.181 Change Sender's window,lower edge:79,upper edge:82
+022.214 Send DATA SEQ:83 ACK:78 ID:10083
+022.214 Start 83 timer
+022.214 Change Sender's window,lower edge:79,upper edge:83
+022.431 Recv DATA SEQ:79 ACK:79 ID:20079
+022.431 in_buf[15] full of date ID:20079
+022.431 Put Packet in_buf[15]
+022.431 .... 80 packets received, 7754 bps, 96.92%, Err 0 (0.0e+00)
+022.431 Change Receiver's window,lower edge:80,upper edge:15
+022.431 Stop 79 timer
+022.431 Change Sender's window,lower edge:80,upper edge:83
+022.481 Send DATA SEQ:84 ACK:79 ID:10084
+022.481 Start 84 timer
+022.481 Change Sender's window,lower edge:80,upper edge:84
+022.697 Recv DATA SEQ:80 ACK:80 ID:20080
+022.697 in_buf[16] full of date ID:20080
+022.697 Put Packet in_buf[16]
+022.697 Change Receiver's window,lower edge:81,upper edge:16
+022.697 Stop 80 timer
+022.697 Change Sender's window,lower edge:81,upper edge:84
+022.746 Send DATA SEQ:85 ACK:80 ID:10085
+022.746 Start 85 timer
+022.746 Change Sender's window,lower edge:81,upper edge:85
+022.962 Recv DATA SEQ:81 ACK:81 ID:20081
+022.962 in_buf[17] full of date ID:20081
+022.962 Put Packet in_buf[17]
+022.962 Change Receiver's window,lower edge:82,upper edge:17
+022.962 Stop 81 timer
+022.962 Change Sender's window,lower edge:82,upper edge:85
+023.012 Send DATA SEQ:86 ACK:81 ID:10086
+023.012 Start 86 timer
+023.012 Change Sender's window,lower edge:82,upper edge:86
+023.225 Recv DATA SEQ:82 ACK:82 ID:20082
+023.225 in_buf[18] full of date ID:20082
+023.225 Put Packet in_buf[18]
+023.225 Change Receiver's window,lower edge:83,upper edge:18
+023.225 Stop 82 timer
+023.225 Change Sender's window,lower edge:83,upper edge:86
+023.275 Send DATA SEQ:87 ACK:82 ID:10087
+023.275 Start 87 timer
+023.275 Change Sender's window,lower edge:83,upper edge:87
+023.472 Recv DATA SEQ:83 ACK:83 ID:20083
+023.472 in_buf[19] full of date ID:20083
+023.472 Put Packet in_buf[19]
+023.472 Change Receiver's window,lower edge:84,upper edge:19
+023.472 Stop 83 timer
+023.472 Change Sender's window,lower edge:84,upper edge:87
+023.539 Send DATA SEQ:88 ACK:83 ID:10088
+023.539 Start 88 timer
+023.539 Change Sender's window,lower edge:84,upper edge:88
+023.738 Recv DATA SEQ:84 ACK:84 ID:20084
+023.739 in_buf[20] full of date ID:20084
+023.739 Put Packet in_buf[20]
+023.739 Change Receiver's window,lower edge:85,upper edge:20
+023.739 Stop 84 timer
+023.739 Change Sender's window,lower edge:85,upper edge:88
+023.805 Send DATA SEQ:89 ACK:84 ID:10089
+023.805 Start 89 timer
+023.805 Change Sender's window,lower edge:85,upper edge:89
+024.020 Recv DATA SEQ:85 ACK:85 ID:20085
+024.020 in_buf[21] full of date ID:20085
+024.020 Put Packet in_buf[21]
+024.020 Change Receiver's window,lower edge:86,upper edge:21
+024.020 Stop 85 timer
+024.020 Change Sender's window,lower edge:86,upper edge:89
+024.069 Send DATA SEQ:90 ACK:85 ID:10090
+024.069 Start 90 timer
+024.069 Change Sender's window,lower edge:86,upper edge:90
+024.284 Recv DATA SEQ:86 ACK:86 ID:20086
+024.285 in_buf[22] full of date ID:20086
+024.285 Put Packet in_buf[22]
+024.285 Change Receiver's window,lower edge:87,upper edge:22
+024.285 Stop 86 timer
+024.285 Change Sender's window,lower edge:87,upper edge:90
+024.333 Send DATA SEQ:91 ACK:86 ID:10091
+024.333 Start 91 timer
+024.333 Change Sender's window,lower edge:87,upper edge:91
+024.547 Recv DATA SEQ:87 ACK:87 ID:20087
+024.547 in_buf[23] full of date ID:20087
+024.547 Put Packet in_buf[23]
+024.547 .... 88 packets received, 7753 bps, 96.91%, Err 0 (0.0e+00)
+024.547 Change Receiver's window,lower edge:88,upper edge:23
+024.547 Stop 87 timer
+024.547 Change Sender's window,lower edge:88,upper edge:91
+024.596 Send DATA SEQ:92 ACK:87 ID:10092
+024.596 Start 92 timer
+024.596 Change Sender's window,lower edge:88,upper edge:92
+024.814 Recv DATA SEQ:88 ACK:88 ID:20088
+024.814 in_buf[24] full of date ID:20088
+024.814 Put Packet in_buf[24]
+024.814 Change Receiver's window,lower edge:89,upper edge:24
+024.814 Stop 88 timer
+024.814 Change Sender's window,lower edge:89,upper edge:92
+024.847 Send DATA SEQ:93 ACK:88 ID:10093
+024.847 Start 93 timer
+024.847 Change Sender's window,lower edge:89,upper edge:93
+025.081 Recv DATA SEQ:89 ACK:89 ID:20089
+025.081 in_buf[25] full of date ID:20089
+025.081 Put Packet in_buf[25]
+025.081 Change Receiver's window,lower edge:90,upper edge:25
+025.081 Stop 89 timer
+025.081 Change Sender's window,lower edge:90,upper edge:93
+025.113 Send DATA SEQ:94 ACK:89 ID:10094
+025.113 Start 94 timer
+025.113 Change Sender's window,lower edge:90,upper edge:94
+025.326 Recv DATA SEQ:90 ACK:90 ID:20090
+025.326 in_buf[26] full of date ID:20090
+025.326 Put Packet in_buf[26]
+025.326 Change Receiver's window,lower edge:91,upper edge:26
+025.326 Stop 90 timer
+025.326 Change Sender's window,lower edge:91,upper edge:94
+025.375 Send DATA SEQ:95 ACK:90 ID:10095
+025.375 Start 95 timer
+025.375 Change Sender's window,lower edge:91,upper edge:95
+025.590 Recv DATA SEQ:91 ACK:91 ID:20091
+025.590 in_buf[27] full of date ID:20091
+025.590 Put Packet in_buf[27]
+025.590 Change Receiver's window,lower edge:92,upper edge:27
+025.590 Stop 91 timer
+025.590 Change Sender's window,lower edge:92,upper edge:95
+025.639 Send DATA SEQ:96 ACK:91 ID:10096
+025.639 Start 96 timer
+025.639 Change Sender's window,lower edge:92,upper edge:96
+025.871 Recv DATA SEQ:92 ACK:92 ID:20092
+025.871 in_buf[28] full of date ID:20092
+025.871 Put Packet in_buf[28]
+025.871 Change Receiver's window,lower edge:93,upper edge:28
+025.871 Stop 92 timer
+025.871 Change Sender's window,lower edge:93,upper edge:96
+025.905 Send DATA SEQ:97 ACK:92 ID:10097
+025.905 Start 97 timer
+025.905 Change Sender's window,lower edge:93,upper edge:97
+026.119 Recv DATA SEQ:93 ACK:93 ID:20093
+026.119 in_buf[29] full of date ID:20093
+026.119 Put Packet in_buf[29]
+026.119 Change Receiver's window,lower edge:94,upper edge:29
+026.119 Stop 93 timer
+026.119 Change Sender's window,lower edge:94,upper edge:97
+026.168 Send DATA SEQ:98 ACK:93 ID:10098
+026.169 Start 98 timer
+026.169 Change Sender's window,lower edge:94,upper edge:98
+026.393 Recv DATA SEQ:94 ACK:94 ID:20094
+026.393 in_buf[30] full of date ID:20094
+026.393 Put Packet in_buf[30]
+026.393 Change Receiver's window,lower edge:95,upper edge:30
+026.393 Stop 94 timer
+026.393 Change Sender's window,lower edge:95,upper edge:98
+026.442 Send DATA SEQ:99 ACK:94 ID:10099
+026.442 Start 99 timer
+026.442 Change Sender's window,lower edge:95,upper edge:99
+026.658 Recv DATA SEQ:95 ACK:95 ID:20095
+026.658 in_buf[31] full of date ID:20095
+026.658 Put Packet in_buf[31]
+026.658 .... 96 packets received, 7754 bps, 96.92%, Err 0 (0.0e+00)
+026.658 Change Receiver's window,lower edge:96,upper edge:31
+026.658 Stop 95 timer
+026.658 Change Sender's window,lower edge:96,upper edge:99
+026.707 Send DATA SEQ:100 ACK:95 ID:10100
+026.707 Start 100 timer
+026.707 Change Sender's window,lower edge:96,upper edge:100
+026.922 Recv DATA SEQ:96 ACK:96 ID:20096
+026.922 in_buf[32] full of date ID:20096
+026.922 Put Packet in_buf[32]
+026.922 Change Receiver's window,lower edge:97,upper edge:32
+026.922 Stop 96 timer
+026.922 Change Sender's window,lower edge:97,upper edge:100
+026.973 Send DATA SEQ:101 ACK:96 ID:10101
+026.973 Start 101 timer
+026.973 Change Sender's window,lower edge:97,upper edge:101
+027.173 Recv DATA SEQ:97 ACK:97 ID:20097
+027.173 in_buf[33] full of date ID:20097
+027.173 Put Packet in_buf[33]
+027.173 Change Receiver's window,lower edge:98,upper edge:33
+027.173 Stop 97 timer
+027.173 Change Sender's window,lower edge:98,upper edge:101
+027.224 Send DATA SEQ:102 ACK:97 ID:10102
+027.224 Start 102 timer
+027.224 Change Sender's window,lower edge:98,upper edge:102
+027.455 Recv DATA SEQ:98 ACK:98 ID:20098
+027.455 in_buf[34] full of date ID:20098
+027.455 Put Packet in_buf[34]
+027.455 Change Receiver's window,lower edge:99,upper edge:34
+027.455 Stop 98 timer
+027.455 Change Sender's window,lower edge:99,upper edge:102
+027.488 Send DATA SEQ:103 ACK:98 ID:10103
+027.488 Start 103 timer
+027.488 Change Sender's window,lower edge:99,upper edge:103
+027.704 Recv DATA SEQ:99 ACK:99 ID:20099
+027.704 in_buf[35] full of date ID:20099
+027.704 Put Packet in_buf[35]
+027.704 Change Receiver's window,lower edge:100,upper edge:35
+027.704 Stop 99 timer
+027.704 Change Sender's window,lower edge:100,upper edge:103
+027.754 Send DATA SEQ:104 ACK:99 ID:10104
+027.754 Start 104 timer
+027.754 Change Sender's window,lower edge:100,upper edge:104
+027.770 TCP Disconnected.
